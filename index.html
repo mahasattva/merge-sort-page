@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Sort Visualizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        .input-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+        }
+
+        .input-section h2 {
+            color: #495057;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .input-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-group label {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .input-group input {
+            padding: 10px;
+            border: 2px solid #dee2e6;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-start {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-start:hover:not(:disabled) {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-start:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn-reset {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-reset:hover:not(:disabled) {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+
+        .btn-reset:disabled {
+            background: #ddd;
+            cursor: not-allowed;
+        }
+
+        .visualization-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+        }
+
+        .visualization-section h2 {
+            color: #495057;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .array-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 8px;
+            height: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            margin-bottom: 20px;
+        }
+
+        .array-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+            flex: 1;
+            max-width: 60px;
+            position: relative;
+        }
+
+        .array-bar.sorted {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+        }
+
+        .array-bar.comparing {
+            background: #ff6b6b;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255, 107, 107, 0.6);
+        }
+
+        .array-bar.merging {
+            background: #ffd93d;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255, 217, 61, 0.6);
+        }
+
+        .info-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-section p {
+            color: #495057;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .step-info {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+
+        .stat-box .label {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .stat-box .value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .speed-control {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+
+        .speed-control label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .speed-control input[type="range"] {
+            flex: 1;
+            cursor: pointer;
+        }
+
+        .speed-value {
+            font-weight: 600;
+            color: #667eea;
+            min-width: 50px;
+            text-align: right;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .input-grid {
+                grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+            }
+
+            .array-container {
+                height: 250px;
+                gap: 5px;
+            }
+
+            .array-bar {
+                max-width: 50px;
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 Merge Sort Visualizer</h1>
+
+        <div class="input-section">
+            <h2>Enter 10 Numbers</h2>
+            <div class="input-grid" id="inputGrid"></div>
+            <div class="button-group">
+                <button class="btn-start" id="startBtn">Start Sorting</button>
+                <button class="btn-reset" id="resetBtn">Reset</button>
+            </div>
+        </div>
+
+        <div class="speed-control">
+            <label for="speedSlider">Animation Speed:</label>
+            <input type="range" id="speedSlider" min="1" max="100" value="50">
+            <div class="speed-value"><span id="speedValue">50</span>ms</div>
+        </div>
+
+        <div class="visualization-section">
+            <h2>Visualization</h2>
+            <div class="array-container" id="arrayContainer"></div>
+            <div class="info-section">
+                <div class="step-info" id="stepInfo">Ready to sort...</div>
+                <p id="description">Enter 10 numbers and click "Start Sorting" to visualize the merge sort algorithm.</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="label">Comparisons</div>
+                        <div class="value" id="comparisons">0</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Swaps</div>
+                        <div class="value" id="swaps">0</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Status</div>
+                        <div class="value" id="status">Idle</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let array = [];
+        let isAnimating = false;
+        let comparisons = 0;
+        let swaps = 0;
+
+        const inputGrid = document.getElementById('inputGrid');
+        const arrayContainer = document.getElementById('arrayContainer');
+        const startBtn = document.getElementById('startBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const speedSlider = document.getElementById('speedSlider');
+        const speedValue = document.getElementById('speedValue');
+        const stepInfo = document.getElementById('stepInfo');
+        const description = document.getElementById('description');
+        const comparisonsDisplay = document.getElementById('comparisons');
+        const swapsDisplay = document.getElementById('swaps');
+        const statusDisplay = document.getElementById('status');
+
+        // Initialize input grid
+        function initializeInputs() {
+            inputGrid.innerHTML = '';
+            for (let i = 0; i < 10; i++) {
+                const group = document.createElement('div');
+                group.className = 'input-group';
+                group.innerHTML = `
+                    <label>Num ${i + 1}</label>
+                    <input type="number" class="number-input" min="1" max="999" value="${Math.floor(Math.random() * 100) + 1}">
+                `;
+                inputGrid.appendChild(group);
+            }
+        }
+
+        // Get numbers from input
+        function getNumbersFromInput() {
+            const inputs = document.querySelectorAll('.number-input');
+            const numbers = [];
+            let valid = true;
+
+            inputs.forEach(input => {
+                if (input.value === '' || isNaN(input.value)) {
+                    valid = false;
+                    input.style.borderColor = '#ff6b6b';
+                } else {
+                    input.style.borderColor = '#dee2e6';
+                    numbers.push(parseInt(input.value));
+                }
+            });
+
+            if (!valid) {
+                alert('Please fill all input fields with valid numbers');
+                return null;
+            }
+
+            return numbers;
+        }
+
+        // Display array bars
+        function displayArray(arr, highlighting = {}) {
+            arrayContainer.innerHTML = '';
+            const maxValue = Math.max(...arr);
+
+            arr.forEach((value, index) => {
+                const bar = document.createElement('div');
+                bar.className = 'array-bar';
+                bar.style.height = `${(value / maxValue) * 100}%`;
+                bar.textContent = value;
+
+                if (highlighting.sorted && highlighting.sorted.includes(index)) {
+                    bar.classList.add('sorted');
+                } else if (highlighting.comparing && highlighting.comparing.includes(index)) {
+                    bar.classList.add('comparing');
+                } else if (highlighting.merging && highlighting.merging.includes(index)) {
+                    bar.classList.add('merging');
+                }
+
+                arrayContainer.appendChild(bar);
+            });
+        }
+
+        // Sleep function for animation
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Get animation speed
+        function getSpeed() {
+            return 101 - parseInt(speedSlider.value);
+        }
+
+        // Merge sort algorithm with visualization
+        async function mergeSort(arr, start = 0, end = arr.length - 1, sorted = []) {
+            if (start === end) {
+                sorted.push(start);
+                return;
+            }
+
+            const mid = Math.floor((start + end) / 2);
+
+            stepInfo.textContent = `Dividing array from index ${start} to ${mid}...`;
+            description.textContent = `Currently dividing the left half of the array`;
+            displayArray(arr, { sorted, merging: [start, mid] });
+            await sleep(getSpeed());
+
+            await mergeSort(arr, start, mid, sorted);
+
+            stepInfo.textContent = `Dividing array from index ${mid + 1} to ${end}...`;
+            description.textContent = `Currently dividing the right half of the array`;
+            displayArray(arr, { sorted, merging: [mid + 1, end] });
+            await sleep(getSpeed());
+
+            await mergeSort(arr, mid + 1, end, sorted);
+
+            await merge(arr, start, mid, end, sorted);
+        }
+
+        // Merge function
+        async function merge(arr, start, mid, end, sorted) {
+            const left = arr.slice(start, mid + 1);
+            const right = arr.slice(mid + 1, end + 1);
+            let i = 0, j = 0, k = start;
+
+            stepInfo.textContent = `Merging arrays from index ${start} to ${end}...`;
+            description.textContent = `Comparing and merging the left and right halves`;
+
+            while (i < left.length && j < right.length) {
+                comparisons++;
+                comparisonsDisplay.textContent = comparisons;
+
+                displayArray(arr, {
+                    sorted,
+                    comparing: [start + i, mid + 1 + j]
+                });
+                await sleep(getSpeed());
+
+                if (left[i] <= right[j]) {
+                    arr[k] = left[i];
+                    i++;
+                } else {
+                    arr[k] = right[j];
+                    j++;
+                    swaps++;
+                    swapsDisplay.textContent = swaps;
+                }
+                k++;
+
+                displayArray(arr, { sorted, merging: [start, k] });
+                await sleep(getSpeed());
+            }
+
+            while (i < left.length) {
+                arr[k] = left[i];
+                i++;
+                k++;
+                displayArray(arr, { sorted, merging: [start, k] });
+                await sleep(getSpeed());
+            }
+
+            while (j < right.length) {
+                arr[k] = right[j];
+                j++;
+                k++;
+                displayArray(arr, { sorted, merging: [start, k] });
+                await sleep(getSpeed());
+            }
+
+            // Mark merged elements as sorted
+            for (let i = start; i <= end; i++) {
+                sorted.push(i);
+            }
+        }
+
+        // Start sorting
+        startBtn.addEventListener('click', async () => {
+            if (isAnimating) return;
+
+            const numbers = getNumbersFromInput();
+            if (!numbers) return;
+
+            array = [...numbers];
+            isAnimating = true;
+            startBtn.disabled = true;
+            resetBtn.disabled = true;
+            comparisons = 0;
+            swaps = 0;
+            comparisonsDisplay.textContent = '0';
+            swapsDisplay.textContent = '0';
+            statusDisplay.textContent = 'Sorting...';
+
+            displayArray(array);
+            await sleep(500);
+
+            try {
+                await mergeSort(array, 0, array.length - 1, []);
+                
+                displayArray(array, { sorted: Array.from({length: array.length}, (_, i) => i) });
+                stepInfo.textContent = '✓ Sorting Complete!';
+                description.textContent = 'All elements have been sorted successfully using merge sort algorithm.';
+                statusDisplay.textContent = 'Complete';
+            } catch (error) {
+                console.error('Sorting error:', error);
+            }
+
+            isAnimating = false;
+            startBtn.disabled = false;
+            resetBtn.disabled = false;
+        });
+
+        // Reset
+        resetBtn.addEventListener('click', () => {
+            if (isAnimating) return;
+            initializeInputs();
+            arrayContainer.innerHTML = '';
+            stepInfo.textContent = 'Ready to sort...';
+            description.textContent = 'Enter 10 numbers and click "Start Sorting" to visualize the merge sort algorithm.';
+            comparisons = 0;
+            swaps = 0;
+            comparisonsDisplay.textContent = '0';
+            swapsDisplay.textContent = '0';
+            statusDisplay.textContent = 'Idle';
+        });
+
+        // Update speed display
+        speedSlider.addEventListener('input', (e) => {
+            speedValue.textContent = e.target.value;
+        });
+
+        // Initialize on load
+        window.addEventListener('load', initializeInputs);
+    </script>
+</body>
+</html>
