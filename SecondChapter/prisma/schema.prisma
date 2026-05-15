@@ -1,0 +1,160 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            Int       @id @default(autoincrement())
+  email         String    @unique
+  passwordHash  String
+  name          String
+  age           Int
+  location      String
+  bio           String    @default("")
+  photoUrl      String?
+  isVerified    Boolean   @default(false)
+  realName      Boolean   @default(false)
+  lifestyleType LifestyleType @default(HOMEBODY_READER)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  interests         UserInterest[]
+  lifeChapterPrompts LifeChapterPrompt[]
+  matchesAsUser1    Match[]   @relation("MatchUser1")
+  matchesAsUser2    Match[]   @relation("MatchUser2")
+  initiatedMatches  Match[]   @relation("MatchInitiator")
+  sentMessages      Message[]
+  groupMemberships  GroupMembership[]
+  reportsFiled      SafetyReport[] @relation("Reporter")
+  reportsReceived   SafetyReport[] @relation("Reported")
+}
+
+enum LifestyleType {
+  ACTIVE_OUTDOORSY
+  HOMEBODY_READER
+  SOCIAL_COMMUNITY
+  TRAVEL_EXPLORER
+  ARTS_CULTURE
+}
+
+model Interest {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+
+  users  UserInterest[]
+  groups Group[]
+}
+
+model UserInterest {
+  userId     Int
+  interestId Int
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  interest Interest @relation(fields: [interestId], references: [id], onDelete: Cascade)
+
+  @@id([userId, interestId])
+}
+
+model LifeChapterPrompt {
+  id          Int    @id @default(autoincrement())
+  userId      Int
+  questionKey String
+  answer      String
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionKey])
+}
+
+model Match {
+  id                 Int         @id @default(autoincrement())
+  userId1            Int
+  userId2            Int
+  initiatorId        Int
+  compatibilityScore Float       @default(0)
+  status             MatchStatus @default(PENDING)
+  createdAt          DateTime    @default(now())
+
+  user1     User      @relation("MatchUser1",    fields: [userId1],     references: [id], onDelete: Cascade)
+  user2     User      @relation("MatchUser2",    fields: [userId2],     references: [id], onDelete: Cascade)
+  initiator User      @relation("MatchInitiator", fields: [initiatorId], references: [id])
+  messages  Message[]
+
+  @@unique([userId1, userId2])
+}
+
+enum MatchStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+}
+
+model Message {
+  id        Int         @id @default(autoincrement())
+  matchId   Int
+  senderId  Int
+  type      MessageType @default(TEXT)
+  content   String
+  createdAt DateTime    @default(now())
+
+  match  Match @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  sender User  @relation(fields: [senderId], references: [id], onDelete: Cascade)
+}
+
+enum MessageType {
+  TEXT
+  VOICE_NOTE
+}
+
+model Group {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String @default("")
+  interestId  Int
+
+  interest    Interest          @relation(fields: [interestId], references: [id])
+  memberships GroupMembership[]
+}
+
+model GroupMembership {
+  groupId  Int
+  userId   Int
+  joinedAt DateTime @default(now())
+
+  group Group @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([groupId, userId])
+}
+
+model SafetyReport {
+  id             Int          @id @default(autoincrement())
+  reporterId     Int
+  reportedUserId Int
+  reason         ReportReason
+  notes          String       @default("")
+  status         ReportStatus @default(OPEN)
+  createdAt      DateTime     @default(now())
+
+  reporter User @relation("Reporter", fields: [reporterId], references: [id])
+  reported User @relation("Reported", fields: [reportedUserId], references: [id])
+}
+
+enum ReportReason {
+  HARASSMENT
+  SCAM
+  SUSPICIOUS_BEHAVIOR
+  INAPPROPRIATE_CONTENT
+  OTHER
+}
+
+enum ReportStatus {
+  OPEN
+  UNDER_REVIEW
+  RESOLVED
+  DISMISSED
+}
