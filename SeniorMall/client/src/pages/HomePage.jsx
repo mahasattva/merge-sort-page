@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import api, { getErrorMessage } from '../api/client.js';
 import ProductCard from '../components/ProductCard.jsx';
 import LoadingSpinner from '../components/LoadingSpinner.jsx';
+import AIChatModal from '../components/AIChatModal.jsx';
 import heroSenior from '../assets/hero-senior.png';
 
 const FEATURES = [
@@ -15,6 +16,7 @@ export default function HomePage() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [chatOpen, setChatOpen] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -32,6 +34,7 @@ export default function HomePage() {
   }, []);
 
   return (
+    <>
     <div className="container">
 
       {/* Hero — 2열 레이아웃 */}
@@ -84,18 +87,23 @@ export default function HomePage() {
             )}
           </div>
 
-          <aside className="cs-box" aria-label="고객센터 안내">
-            <p className="cs-box__title">고객센터</p>
-            <p className="cs-box__desc">친절한 상담이 필요하신가요?</p>
-            <div className="cs-box__phone">
-              <span aria-hidden="true" className="cs-box__phone-icon">📞</span>
-              <span className="cs-box__number">1234-5678</span>
-            </div>
-            <p className="cs-box__hours">평일 09:00 ~ 18:00</p>
+          <aside className="inquiry-box" aria-label="AI 상담 안내">
+            <p className="inquiry-box__text">
+              문제가 있으신가요?<br />
+              은빛장터의 AI에게 무엇이든 물어보세요.
+            </p>
+            <button
+              className="btn btn--primary btn--block btn--lg"
+              onClick={() => setChatOpen(true)}
+            >
+              💬 문의하기
+            </button>
           </aside>
         </div>
       </section>
 
     </div>
+    {chatOpen && <AIChatModal onClose={() => setChatOpen(false)} />}
+    </>
   );
 }
