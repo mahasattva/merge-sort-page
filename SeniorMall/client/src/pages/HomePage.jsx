@@ -6,9 +6,9 @@ import LoadingSpinner from '../components/LoadingSpinner.jsx';
 import heroSenior from '../assets/hero-senior.png';
 
 const FEATURES = [
-  { icon: 'A', name: '큰 글씨', desc: '보기 편한 큰 글씨' },
-  { icon: '☜', name: '쉬운 메뉴', desc: '간단하고 직관적인 구성' },
-  { icon: '🛡', name: '안심 쇼핑', desc: '안전한 결제와 배송' },
+  { icon: 'A', label: '보기 편한 큰 글씨' },
+  { icon: '☜', label: '간단하고 쉬운 메뉴' },
+  { icon: '🛡', label: '안전한 결제와 배송' },
 ];
 
 export default function HomePage() {
@@ -56,12 +56,9 @@ export default function HomePage() {
       {/* 특징 스트립 */}
       <ul className="hero-features" aria-label="은빛장터 특징">
         {FEATURES.map((f) => (
-          <li key={f.name} className="hero-feature">
+          <li key={f.label} className="hero-feature">
             <div className="hero-feature__icon" aria-hidden="true">{f.icon}</div>
-            <div>
-              <p className="hero-feature__name">{f.name}</p>
-              <p className="hero-feature__desc">{f.desc}</p>
-            </div>
+            <p className="hero-feature__name">{f.label}</p>
           </li>
         ))}
       </ul>

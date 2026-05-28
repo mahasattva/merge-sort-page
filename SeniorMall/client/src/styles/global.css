@@ -603,11 +603,12 @@ main {
 }
 .hero-feature {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: var(--spacing-sm);
+  gap: 6px;
   color: #fff;
   flex: 1;
-  min-width: 0;
+  text-align: center;
 }
 .hero-feature__icon {
   width: 36px;
@@ -622,17 +623,11 @@ main {
   flex-shrink: 0;
 }
 .hero-feature__name {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: var(--font-weight-bold);
-  margin: 0 0 1px;
-}
-.hero-feature__desc {
-  font-size: 11px;
   margin: 0;
-  opacity: 0.85;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  word-break: keep-all;
+  line-height: 1.3;
 }
 
 /* =============================================================
