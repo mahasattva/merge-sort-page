@@ -654,6 +654,83 @@ main {
 }
 .popular-products-area { min-width: 0; }
 
+/* =============================================================
+   Product Carousel
+   ============================================================= */
+.product-carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  touch-action: pan-y;
+  user-select: none;
+}
+.product-carousel__track {
+  display: flex;
+  transition: transform 300ms ease-out;
+  will-change: transform;
+}
+.product-carousel__item {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+/* 캐러셀 안 카드: 정사각형 이미지 */
+.product-carousel__item .product-card__image-wrap {
+  aspect-ratio: 1 / 1;
+}
+.product-carousel__item .product-card {
+  border-radius: var(--radius-lg);
+}
+
+/* 좌우 버튼 */
+.product-carousel__btn {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  border: var(--border-width) solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+}
+.product-carousel__btn--prev { left: var(--spacing-sm); }
+.product-carousel__btn--next { right: var(--spacing-sm); }
+.product-carousel__btn:disabled { opacity: 0.3; }
+
+/* 점 인디케이터 */
+.product-carousel__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: var(--spacing-sm) 0 var(--spacing-xs);
+}
+.product-carousel__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-border);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 200ms ease;
+  min-width: unset;
+  min-height: unset;
+}
+.product-carousel__dot--active {
+  background: var(--color-primary);
+  width: 24px;
+  border-radius: 4px;
+}
+
 /* Inquiry Box */
 .inquiry-box {
   background: var(--color-surface);

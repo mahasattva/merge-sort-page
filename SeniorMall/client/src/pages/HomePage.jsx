@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import api, { getErrorMessage } from '../api/client.js';
 import ProductCard from '../components/ProductCard.jsx';
@@ -17,6 +17,20 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [chatOpen, setChatOpen] = useState(false);
+  const [carouselIdx, setCarouselIdx] = useState(0);
+  const touchStartX = useRef(null);
+
+  function prevProduct() { setCarouselIdx((i) => Math.max(0, i - 1)); }
+  function nextProduct() { setCarouselIdx((i) => Math.min(products.length - 1, i + 1)); }
+
+  function handleTouchStart(e) { touchStartX.current = e.touches[0].clientX; }
+  function handleTouchEnd(e) {
+    if (touchStartX.current === null) return;
+    const diff = touchStartX.current - e.changedTouches[0].clientX;
+    if (diff > 50) nextProduct();
+    else if (diff < -50) prevProduct();
+    touchStartX.current = null;
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -81,8 +95,39 @@ export default function HomePage() {
               <p className="empty-state__title">아직 등록된 상품이 없습니다.</p>
             )}
             {!loading && !error && products.length > 0 && (
-              <div className="product-grid">
-                {products.map((p) => <ProductCard key={p.id} product={p} />)}
+              <div
+                className="product-carousel"
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+              >
+                <div
+                  className="product-carousel__track"
+                  style={{ transform: `translateX(-${carouselIdx * 100}%)` }}
+                >
+                  {products.map((p) => (
+                    <div key={p.id} className="product-carousel__item">
+                      <ProductCard product={p} />
+                    </div>
+                  ))}
+                </div>
+
+                {carouselIdx > 0 && (
+                  <button className="product-carousel__btn product-carousel__btn--prev" onClick={prevProduct} aria-label="이전 상품">‹</button>
+                )}
+                {carouselIdx < products.length - 1 && (
+                  <button className="product-carousel__btn product-carousel__btn--next" onClick={nextProduct} aria-label="다음 상품">›</button>
+                )}
+
+                <div className="product-carousel__dots" aria-hidden="true">
+                  {products.map((_, i) => (
+                    <button
+                      key={i}
+                      className={`product-carousel__dot${i === carouselIdx ? ' product-carousel__dot--active' : ''}`}
+                      onClick={() => setCarouselIdx(i)}
+                      aria-label={`${i + 1}번 상품`}
+                    />
+                  ))}
+                </div>
               </div>
             )}
           </div>
