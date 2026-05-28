@@ -167,15 +167,18 @@ main {
   z-index: 50;
   background: var(--color-bg);
   border-bottom: var(--border-width) solid var(--color-border);
-  height: var(--header-height);
+  height: auto;
 }
 .header__inner {
-  height: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) 0;
 }
 .header__logo {
+  flex: 1;
+  order: 1;
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
@@ -183,10 +186,12 @@ main {
   white-space: nowrap;
 }
 .header__search {
-  flex: 1;
+  order: 3;
+  flex-basis: 100%;
   display: flex;
   gap: var(--spacing-sm);
   min-width: 0;
+  padding-top: var(--spacing-xs);
 }
 .header__search input {
   flex: 1;
@@ -201,9 +206,10 @@ main {
   outline: none;
 }
 .header__actions {
+  order: 2;
   display: flex;
   align-items: center;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
 }
 .header__cart {
   position: relative;
@@ -233,25 +239,16 @@ main {
   justify-content: center;
 }
 .header__user {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
   color: var(--color-text);
   text-decoration: none;
   min-height: var(--touch-target);
   display: inline-flex;
   align-items: center;
-  padding: 0 var(--spacing-md);
+  padding: 0 var(--spacing-sm);
 }
 
-/* 모바일: 로고+액션 위 행, 검색바 아래 행 — 2행 레이아웃 */
-@media (max-width: 600px) {
-  .header { height: auto; }
-  .header__inner { flex-wrap: wrap; padding: var(--spacing-sm) 0; }
-  .header__logo { flex: 1; order: 1; }
-  .header__actions { order: 2; gap: var(--spacing-sm); }
-  .header__search { order: 3; flex-basis: 100%; padding-top: var(--spacing-sm); }
-  .header__user { padding: 0 var(--spacing-sm); font-size: var(--font-size-sm); }
-}
 
 /* =============================================================
    Bottom Nav (모바일 하단 고정)
