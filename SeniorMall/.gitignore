@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# Prisma local artifacts
+prisma/migrations/
+
+# Multer uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs / OS
+*.log
+.DS_Store

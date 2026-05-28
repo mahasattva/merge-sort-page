@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "prisma": {
+    "seed": "node --env-file=.env prisma/seed.js"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^2.4.3"
+  }
+}
