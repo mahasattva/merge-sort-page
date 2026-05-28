@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header className="header" role="banner">
       <div className="container header__inner">
-        <Link to="/" className="header__logo" aria-label="시니어몰 홈으로">시니어몰</Link>
+        <Link to="/" className="header__logo" aria-label="은빛장터 홈으로">은빛장터</Link>
 
         <form className="header__search" role="search" onSubmit={handleSearch}>
           <label htmlFor="header-search" className="sr-only">상품 검색</label>

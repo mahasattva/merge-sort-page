@@ -34,8 +34,10 @@ export default function HomePage() {
   return (
     <div className="container">
       <section className="hero" aria-labelledby="hero-title">
-        <h1 id="hero-title" className="hero__title">큰 글씨, 쉬운 쇼핑</h1>
-        <p className="hero__subtitle">시니어를 위해 만든 친절한 쇼핑몰. 천천히 둘러보세요.</p>
+        <p className="hero__eyebrow" aria-hidden="true">🌾 어서 오세요</p>
+        <h1 id="hero-title" className="hero__title">은빛장터</h1>
+        <p className="hero__subtitle">큰 글씨, 쉬운 메뉴로 천천히 쇼핑하세요.<br />어르신을 위해 정성껏 만든 온라인 장터입니다.</p>
+        <Link to="/products" className="btn btn--primary btn--lg hero__cta">상품 둘러보기</Link>
       </section>
 
       <section aria-labelledby="cat-title">
