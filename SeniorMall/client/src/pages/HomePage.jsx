@@ -42,8 +42,7 @@ export default function HomePage() {
             은빛장터<span className="hero-landing__sparkle" aria-hidden="true">✦</span>
           </h1>
           <p className="hero-landing__subtitle">
-            큰 글씨, 쉬운 메뉴로 천천히 쇼핑하세요.<br />
-            시니어를 위해 정성껏 만든 온라인 장터입니다.
+            큰 글씨, 쉬운 메뉴로 천천히 쇼핑하세요. 시니어를 위해 정성껏 만든 온라인 장터입니다.
           </p>
           <Link to="/products" className="btn btn--primary btn--lg hero-landing__cta">
             🛍&nbsp;상품 둘러보기
