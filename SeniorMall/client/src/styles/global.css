@@ -508,7 +508,168 @@ main {
 }
 
 /* =============================================================
-   Home Page
+   Hero Landing (2열 레이아웃)
+   ============================================================= */
+.hero-landing {
+  display: grid;
+  grid-template-columns: 55% 1fr;
+  min-height: 320px;
+  background: linear-gradient(135deg, #EBF4FF 0%, #F0F7FF 50%, #E4F0FB 100%);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.hero-landing__content {
+  padding: var(--spacing-2xl) var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-landing__tagline {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-xs);
+}
+.hero-landing__title {
+  font-size: 56px;
+  font-weight: 900;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.hero-landing__sparkle {
+  color: #4DA6FF;
+  font-size: 0.4em;
+  vertical-align: super;
+  margin-left: 6px;
+}
+.hero-landing__subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.8;
+}
+.hero-landing__cta { align-self: flex-start; }
+.hero-landing__image {
+  background: linear-gradient(135deg, #BDD9F8 0%, #D6EBFF 40%, #C5E0FF 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.hero-landing__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* =============================================================
+   Feature Strip
+   ============================================================= */
+.hero-features {
+  list-style: none;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  margin: 0 0 var(--spacing-xl);
+  background: var(--color-primary);
+  display: flex;
+  gap: var(--spacing-xl);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+.hero-feature {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  color: #fff;
+  flex: 1;
+}
+.hero-feature__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  font-weight: 900;
+  flex-shrink: 0;
+}
+.hero-feature__name {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 2px;
+}
+.hero-feature__desc {
+  font-size: 13px;
+  margin: 0;
+  opacity: 0.85;
+}
+
+/* =============================================================
+   Popular Products Section
+   ============================================================= */
+.popular-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+.popular-header__more {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.popular-header__more:hover { text-decoration: underline; }
+
+.popular-layout {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: var(--spacing-lg);
+  align-items: start;
+}
+.popular-products-area { min-width: 0; }
+
+/* Customer Service Box */
+.cs-box {
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+}
+.cs-box__title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 var(--spacing-xs);
+}
+.cs-box__desc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-md);
+}
+.cs-box__phone {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: 4px;
+}
+.cs-box__phone-icon { font-size: var(--font-size-xl); }
+.cs-box__number {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+.cs-box__hours {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* =============================================================
+   Home Page (기존 — hero 등 레거시)
    ============================================================= */
 .hero {
   background: linear-gradient(135deg, #E8EEF7 0%, #F5F3EE 60%, #EEF0E8 100%);
@@ -899,16 +1060,20 @@ main {
   /* Main 상단 여백 */
   main { padding-top: var(--spacing-md); }
 
-  /* Hero */
-  .hero {
-    padding: var(--spacing-md) var(--spacing-sm);
-    margin-bottom: var(--spacing-lg);
-    border-radius: var(--radius-md);
-  }
-  .hero__eyebrow { font-size: var(--font-size-base); }
-  .hero__title { font-size: var(--font-size-xl); }
-  .hero__subtitle { font-size: var(--font-size-base); }
-  .hero__cta { width: 100%; }
+  /* Hero Landing */
+  .hero-landing { grid-template-columns: 1fr; }
+  .hero-landing__image { display: none; }
+  .hero-landing__title { font-size: var(--font-size-2xl); }
+  .hero-landing__subtitle { font-size: var(--font-size-base); }
+  .hero-landing__content { padding: var(--spacing-lg) var(--spacing-md); }
+  .hero-landing__cta { width: 100%; justify-content: center; }
+
+  /* Feature Strip */
+  .hero-features { flex-direction: column; gap: var(--spacing-md); padding: var(--spacing-md); border-radius: var(--radius-md); }
+
+  /* Popular Layout */
+  .popular-layout { grid-template-columns: 1fr; }
+  .cs-box { order: -1; }
 
   /* Stepper */
   .stepper { gap: 4px; }
