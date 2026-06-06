@@ -10,6 +10,8 @@ import cartRouter from './routes/cart.js';
 import ordersRouter from './routes/orders.js';
 import usersRouter from './routes/users.js';
 import aiChatRouter from './routes/aiChat.js';
+import adminRouter from './routes/admin.js';
+import sellerRouter from './routes/seller.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -36,6 +38,8 @@ app.use('/api/cart', cartRouter);
 app.use('/api/orders', ordersRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/ai/chat', aiChatRouter);
+app.use('/api/admin', adminRouter);
+app.use('/api/seller', sellerRouter);
 
 // 404 fallback
 app.use((req, res) => {

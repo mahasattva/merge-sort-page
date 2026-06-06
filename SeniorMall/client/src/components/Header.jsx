@@ -33,7 +33,23 @@ export default function Header() {
   return (
     <header className="header" role="banner">
       <div className="container header__inner">
-        <Link to="/" className="header__logo" aria-label="은빛장터 홈으로">은빛장터</Link>
+        <Link to="/" className="header__logo" aria-label="은빛장터 홈으로">
+          <span className="header__logo-clip">
+            <img src="/logo-full.png" alt="은빛장터" className="header__logo-img" />
+          </span>
+        </Link>
+
+        <nav className="header__actions" aria-label="사용자 메뉴">
+          <Link to="/cart" className="header__cart" aria-label={`장바구니${cartCount > 0 ? ` (${cartCount}개 상품)` : ''}`}>
+            <span aria-hidden="true">🛒</span>
+            {cartCount > 0 && <span className="header__cart-badge" aria-hidden="true">{cartCount}</span>}
+          </Link>
+          {isAuthenticated ? (
+            <Link to="/my" className="header__user">{user?.name ? `${user.name} 님` : '내 정보'}</Link>
+          ) : (
+            <Link to="/login?next=/" className="btn btn--primary header__login-btn">로그인</Link>
+          )}
+        </nav>
 
         <form className="header__search" role="search" onSubmit={handleSearch}>
           <label htmlFor="header-search" className="sr-only">상품 검색</label>
@@ -47,18 +63,6 @@ export default function Header() {
           />
           <button type="submit" className="btn btn--primary" aria-label="검색하기">검색</button>
         </form>
-
-        <nav className="header__actions" aria-label="사용자 메뉴">
-          <Link to="/cart" className="header__cart" aria-label={`장바구니${cartCount > 0 ? ` (${cartCount}개 상품)` : ''}`}>
-            <span aria-hidden="true">🛒</span>
-            {cartCount > 0 && <span className="header__cart-badge" aria-hidden="true">{cartCount}</span>}
-          </Link>
-          {isAuthenticated ? (
-            <Link to="/my" className="header__user">{user?.name ?? '내 정보'}</Link>
-          ) : (
-            <Link to="/login" className="header__user">로그인</Link>
-          )}
-        </nav>
       </div>
     </header>
   );

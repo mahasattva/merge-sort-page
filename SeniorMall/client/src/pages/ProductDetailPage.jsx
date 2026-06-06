@@ -1,9 +1,26 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import api, { getErrorMessage } from '../api/client.js';
 import LoadingSpinner from '../components/LoadingSpinner.jsx';
 import Button from '../components/Button.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
+
+function StarPicker({ value, onChange }) {
+  return (
+    <div className="star-picker" role="group" aria-label="별점 선택">
+      {[1, 2, 3, 4, 5].map((n) => (
+        <button
+          key={n}
+          type="button"
+          className={`star-picker__btn${n <= value ? ' star-picker__btn--on' : ''}`}
+          onClick={() => onChange(n)}
+          aria-label={`${n}점`}
+        >★</button>
+      ))}
+      <span className="star-picker__label">{value ? `${value}점` : '별점 선택'}</span>
+    </div>
+  );
+}
 
 function formatPrice(n) {
   if (typeof n !== 'number') return '-';
@@ -21,12 +38,17 @@ export default function ProductDetailPage() {
   const navigate = useNavigate();
   const { isAuthenticated } = useAuth();
 
-  const [product, setProduct] = useState(null);
+  const [product, setProduct] = useState(null);  // setProduct used for optimistic review update
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [quantity, setQuantity] = useState(1);
   const [feedback, setFeedback] = useState(null);
   const [submitting, setSubmitting] = useState(false);
+  const [showReviewForm, setShowReviewForm] = useState(false);
+  const [reviewRating, setReviewRating] = useState(0);
+  const [reviewContent, setReviewContent] = useState('');
+  const [reviewSubmitting, setReviewSubmitting] = useState(false);
+  const [reviewFeedback, setReviewFeedback] = useState(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -136,14 +158,79 @@ export default function ProductDetailPage() {
       </article>
 
       <section className="review-section" aria-labelledby="reviews-title">
-        <h2 id="reviews-title" className="section-title">
-          리뷰 ({product.reviewCount ?? 0}개)
-          {typeof product.avgRating === 'number' && product.reviewCount > 0 && (
-            <span style={{ marginLeft: 12 }}>
-              <Stars rating={product.avgRating} /> 평균 {product.avgRating.toFixed(1)}점
-            </span>
+        <div className="review-section__head">
+          <h2 id="reviews-title" className="section-title" style={{ margin: 0 }}>
+            리뷰 ({product.reviewCount ?? 0}개)
+            {typeof product.avgRating === 'number' && product.reviewCount > 0 && (
+              <span style={{ marginLeft: 12 }}>
+                <Stars rating={product.avgRating} /> 평균 {product.avgRating.toFixed(1)}점
+              </span>
+            )}
+          </h2>
+          {isAuthenticated ? (
+            <Button variant="secondary" onClick={() => { setShowReviewForm((v) => !v); setReviewFeedback(null); }}>
+              {showReviewForm ? '닫기' : '리뷰 작성'}
+            </Button>
+          ) : (
+            <Link to={`/login?next=/products/${id}`} className="btn btn--secondary">
+              로그인 후 리뷰 작성
+            </Link>
           )}
-        </h2>
+        </div>
+
+        {showReviewForm && (
+          <form
+            className="review-form"
+            onSubmit={async (e) => {
+              e.preventDefault();
+              if (!reviewRating) { setReviewFeedback({ type: 'error', msg: '별점을 선택해주세요.' }); return; }
+              if (!reviewContent.trim()) { setReviewFeedback({ type: 'error', msg: '리뷰 내용을 입력해주세요.' }); return; }
+              setReviewSubmitting(true);
+              setReviewFeedback(null);
+              try {
+                const { data } = await api.post(`/api/products/${id}/reviews`, { rating: reviewRating, content: reviewContent.trim() });
+                setProduct((prev) => ({
+                  ...prev,
+                  reviews: [data, ...(prev.reviews || [])],
+                  reviewCount: (prev.reviewCount ?? 0) + 1,
+                }));
+                setReviewRating(0);
+                setReviewContent('');
+                setShowReviewForm(false);
+                setReviewFeedback({ type: 'success', msg: '리뷰가 등록됐습니다.' });
+              } catch (err) {
+                setReviewFeedback({ type: 'error', msg: getErrorMessage(err, '리뷰 등록에 실패했습니다.') });
+              } finally {
+                setReviewSubmitting(false);
+              }
+            }}
+          >
+            <StarPicker value={reviewRating} onChange={setReviewRating} />
+            <textarea
+              className="form__textarea"
+              placeholder="상품 사용 후기를 남겨주세요."
+              value={reviewContent}
+              onChange={(e) => setReviewContent(e.target.value)}
+              rows={3}
+              maxLength={500}
+              aria-label="리뷰 내용"
+            />
+            {reviewFeedback && (
+              <p className={reviewFeedback.type === 'error' ? 'form__error' : ''} role="alert"
+                style={{ color: reviewFeedback.type === 'success' ? 'var(--color-success)' : undefined, fontWeight: 700 }}>
+                {reviewFeedback.msg}
+              </p>
+            )}
+            <Button variant="primary" block disabled={reviewSubmitting}>
+              {reviewSubmitting ? '등록 중...' : '리뷰 등록'}
+            </Button>
+          </form>
+        )}
+
+        {reviewFeedback?.type === 'success' && !showReviewForm && (
+          <p style={{ color: 'var(--color-success)', fontWeight: 700, marginBottom: 'var(--spacing-md)' }}>✓ {reviewFeedback.msg}</p>
+        )}
+
         {(!product.reviews || product.reviews.length === 0) ? (
           <p className="empty-state__title">아직 리뷰가 없습니다.</p>
         ) : (

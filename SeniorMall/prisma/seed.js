@@ -29,12 +29,12 @@ async function upsertProduct(data) {
   return prisma.product.create({ data });
 }
 
-async function upsertUser({ email, password, name, phone, address, role }) {
+async function upsertUser({ email, password, name, phone, address, role, birthDate }) {
   const passwordHash = await bcrypt.hash(password, 10);
   return prisma.user.upsert({
     where: { email },
-    update: { passwordHash, name, phone, address, role },
-    create: { email, passwordHash, name, phone, address, role },
+    update: { passwordHash, name, phone, address, role, birthDate },
+    create: { email, passwordHash, name, phone, address, role, birthDate },
   });
 }
 
@@ -50,7 +50,7 @@ async function main() {
       description: '팔뚝형 자동 측정. 큰 숫자 LCD로 노안에도 또렷하게 보입니다. 측정값 60회 저장.',
       price: 45000,
       stock: 25,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product1.jpg',
       categoryId: health.id,
     },
     {
@@ -58,7 +58,7 @@ async function main() {
       description: '50대 이상 영양 균형을 위한 멀티비타민/미네랄. 3개월분.',
       price: 28000,
       stock: 50,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product2.jpg',
       categoryId: health.id,
     },
     {
@@ -66,7 +66,7 @@ async function main() {
       description: '계단 오르내림과 산책 시 무릎 부담을 줄여주는 압박형 보호대.',
       price: 19500,
       stock: 40,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product3.jpg',
       categoryId: health.id,
     },
     {
@@ -74,7 +74,7 @@ async function main() {
       description: '신문 보기, 약 봉투 확인에 편리한 LED 조명 돋보기. 손잡이형.',
       price: 12000,
       stock: 60,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product4.jpg',
       categoryId: health.id,
     },
 
@@ -84,7 +84,7 @@ async function main() {
       description: '6시간 보온/보냉 유지. 원터치 마개로 한 손 개폐 가능.',
       price: 22000,
       stock: 35,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product5.jpg',
       categoryId: living.id,
     },
     {
@@ -93,7 +93,7 @@ async function main() {
       price: 16000,
       stock: 30,
       invalid: undefined,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product6.jpg',
       categoryId: living.id,
     },
     {
@@ -101,7 +101,7 @@ async function main() {
       description: '플리커프리 LED, 3단계 밝기 조절. 책 읽기 좋은 따뜻한 색온도.',
       price: 39000,
       stock: 20,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product7.jpg',
       categoryId: living.id,
     },
 
@@ -111,7 +111,7 @@ async function main() {
       description: '전복죽, 호박죽, 야채죽 등 8종 모음. 데우기만 하면 한 끼 완성.',
       price: 32000,
       stock: 45,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product8.jpg',
       categoryId: food.id,
     },
     {
@@ -119,7 +119,7 @@ async function main() {
       description: '저온 숙성 흑마늘 100% 추출. 한 달 분량 스틱형 파우치.',
       price: 38000,
       stock: 25,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product9.jpg',
       categoryId: food.id,
     },
     {
@@ -127,7 +127,7 @@ async function main() {
       description: '아몬드, 호두, 캐슈너트 등 1일 1봉 소포장. 산패 걱정 없음.',
       price: 21000,
       stock: 70,
-      imageUrl: null,
+      imageUrl: '/uploads/products/product10.jpg',
       categoryId: food.id,
     },
   ];
@@ -146,6 +146,7 @@ async function main() {
     phone: '010-1234-5678',
     address: '서울시 강남구 테헤란로 1',
     role: 'USER',
+    birthDate: new Date('1958-03-15'),
   });
 
   const admin = await upsertUser({
@@ -155,6 +156,7 @@ async function main() {
     phone: '010-0000-0000',
     address: '서울시 종로구 1',
     role: 'ADMIN',
+    birthDate: new Date('1970-07-20'),
   });
 
   // eslint-disable-next-line no-console
