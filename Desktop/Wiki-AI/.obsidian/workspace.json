@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "91b3ce3554c1da97",
+    "type": "split",
+    "children": [
+      {
+        "id": "19d16187134237fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c644d136681438c1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b6b212bb67795f8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd91df1b2f500ee6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973c2b8863137134",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9d445891aa3147a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "689f1fb45575241a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "591970539dd2d7a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0be86825d349052",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdc580624dc664b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c654cfc779d2eb4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a4ccd7bf6bb45ede",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ba4390484be3d18e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "89f899f3312e23dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c644d136681438c1",
+  "lastOpenFiles": [
+    "wiki/llm-interpretability/global-workspace-j-space.md",
+    "wiki/ai-society/dawkins-claude-consciousness-debate.md",
+    "CLAUDE.md",
+    "The MIT Press Reader.md",
+    "raw/Animals vs Ghosts.md",
+    "raw/A global workspace in language models.md",
+    "raw/2510.24797v2.pdf",
+    "raw/llm-wiki-idea.md",
+    "raw/When AI builds itself.md",
+    "raw/When Dawkins Met Claude.pdf",
+    "wiki/_master-index.md",
+    "raw/AI 2027.md",
+    "raw/Do LLMs Feel.pdf",
+    "wiki/ai-futures/ai-2027-scenario.md",
+    "wiki/ai-futures/ai-2027-alignment.md",
+    "Clippings",
+    "wiki/llm-interpretability/self-referential-experience.md",
+    "wiki/llm-interpretability/emotion-circuits.md",
+    "wiki/ai-society/llm-consciousness-ethics.md",
+    "raw/What Is Authorship When Machines Can Write?.md",
+    "raw/Project Glasswing Securing critical software for the AI era.md",
+    "wiki/claude-code-skills/skills-vs-hooks-vs-claude-md.md",
+    "wiki/ai-futures/animals-vs-ghosts.md",
+    "raw/10 Must-Have Skills for Claude (and Any Coding Agent) in 2026.md",
+    "wiki/ai-society/ai-authorship.md",
+    "wiki/ai-futures/scheming-behaviors.md",
+    "wiki/ai-futures/in-context-scheming.md",
+    "wiki/ai-society/_index.md",
+    "wiki/ai-society",
+    "raw/In-Context Scheming.pdf",
+    "wiki/claude-code-skills/obsidian-claude-code-workflow.md",
+    "wiki/index.md",
+    "book-denial-of-death",
+    "book-western-attitudes-toward-death",
+    "book-death-and-immortality-project"
+  ]
+}
