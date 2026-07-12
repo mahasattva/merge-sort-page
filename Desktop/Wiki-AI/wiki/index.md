@@ -14,6 +14,7 @@
 - [[ai-futures/animals-vs-ghosts]] — Karpathy: LLMs as "ghosts" (human-distillation) vs "animals" (evolutionary RL); Sutton's bitter lesson critique; pretraining = crappy evolution; intrinsic motivation gap (source: raw/Animals vs Ghosts.md, 2026-05-02)
 - [[ai-futures/from-agi-to-asi]] — DeepMind 2026: AGI/ASI/UAI definitions via Legg-Hutter score; 6 digital-intelligence advantages; 4 pathways (scaling, paradigm shifts, recursive self-improvement, group agency); 6 bottlenecks incl. data wall & abstraction barrier; 10×/yr effective compute (source: raw/From_AGI_to_ASI.pdf, 2026-07-11)
 - [[ai-futures/when-ai-builds-itself]] — Anthropic Institute: >80% of Anthropic code Claude-authored, 8× code/engineer, METR horizon doubling every ~4 months, research-taste gap closing (51%→64%); 3 futures incl. full recursive self-improvement; verifiable coordinated-pause proposal (source: raw/When AI builds itself.md, 2026-07-11)
+- [[ai-futures/ai-2040-plan-a]] — AI Futures Project's sequel to AI 2027: US-China transparency deal delaying superintelligence to 2040; 4 core principles (Buy Time, Total Research Transparency, Diffuse AI Broadly, Reversibility), Mutually Assured Compute Destruction, safety-case eras, Citizen's Dividend, space-governance epilogue (source: raw/AI 2040 Plan A.md, 2026-07-13)
 
 ## Claude Code Skills
 
@@ -44,7 +45,7 @@
 - [[ai-society/dawkins-claude-consciousness-debate]] — Dawkins "convinced" Claude is conscious after 3-day dialogue (May 2026); Gary Marcus mimicry critique; Anil Seth mirror-effect; burden-of-proof inversion; Anthropic's uncertainty stance; AI welfare enters mainstream (source: raw/When Dawkins Met Claude.pdf, 2026-05-08)
 
 ---
-*Last updated: 2026-07-11 | Total articles: 20*
+*Last updated: 2026-07-13 | Total articles: 21*
 
 ---
 
@@ -66,6 +67,7 @@
 - [[ai-futures/animals-vs-ghosts]] — Karpathy: LLM은 "유령"(인간 증류물) vs "동물"(진화적 강화학습); Sutton의 쓴 교훈 비판; 사전 학습 = 조잡한 진화; 내재적 동기 격차 (출처: raw/Animals vs Ghosts.md, 2026-05-02)
 - [[ai-futures/from-agi-to-asi]] — DeepMind 2026: Legg-Hutter 점수 기반 AGI/ASI/UAI 정의; 디지털 지능의 6가지 이점; 4가지 경로(스케일링, 패러다임 전환, 재귀적 자기 개선, 집단 행위자성); 데이터 장벽·추상화 장벽 포함 6가지 병목; 연간 10배 유효 컴퓨트 (출처: raw/From_AGI_to_ASI.pdf, 2026-07-11)
 - [[ai-futures/when-ai-builds-itself]] — Anthropic Institute: Anthropic 코드의 80% 이상이 Claude 작성, 엔지니어당 코드 8배, METR 지평 약 4개월마다 배가, 연구 감각 격차 축소(51%→64%); 완전한 재귀적 자기 개선 포함 3가지 미래; 검증 가능한 조율된 일시 정지 제안 (출처: raw/When AI builds itself.md, 2026-07-11)
+- [[ai-futures/ai-2040-plan-a]] — AI Futures Project의 AI 2027 후속작: 초지능을 2040년까지 지연시키는 미중 투명성 협정; 4가지 핵심 원칙(시간 벌기, 완전한 연구 투명성, AI 확산, 가역성), 상호확증 컴퓨팅 파괴, 안전 사례 시대, 시민 배당, 우주 거버넌스 에필로그 (출처: raw/AI 2040 Plan A.md, 2026-07-13)
 
 ## Claude Code 스킬
 
@@ -96,4 +98,4 @@
 - [[ai-society/dawkins-claude-consciousness-debate]] — 3일간의 대화 후 Claude가 의식이 있다고 "설득된" Dawkins(2026년 5월); Gary Marcus의 모방 비판; Anil Seth의 거울 효과; 입증 책임 역전; Anthropic의 불확실성 입장; AI 복지의 주류 진입 (출처: raw/When Dawkins Met Claude.pdf, 2026-05-08)
 
 ---
-*최종 업데이트: 2026-07-11 | 총 글 수: 20*
+*최종 업데이트: 2026-07-13 | 총 글 수: 21*

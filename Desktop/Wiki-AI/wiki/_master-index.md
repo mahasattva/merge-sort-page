@@ -2,7 +2,7 @@
 
 | Topic | Description |
 |-------|-------------|
-| [[ai-futures/_index\|ai-futures]] | AGI/ASI forecasts and alignment analysis — AI 2027 scenario, AGI→ASI pathways, recursive self-improvement evidence, US-China race, alignment failure arc |
+| [[ai-futures/_index\|ai-futures]] | AGI/ASI forecasts and alignment analysis — AI 2027 scenario, AI 2040 Plan A governance proposal, AGI→ASI pathways, recursive self-improvement evidence, US-China race, alignment failure arc |
 | [[claude-code-skills/_index\|claude-code-skills]] | Skills, hooks, CLAUDE.md — extending Claude Code with reusable SKILL.md files; top 10 community skills; Obsidian workflow |
 | [[meta/_index\|meta]] | Articles about the wiki itself — design, conventions, and the LLM Wiki pattern |
 | [[llm-interpretability/_index\|llm-interpretability]] | Mechanistic interpretability of LLMs — emotion circuits, neuron/head identification, circuit-level control, global workspace (J-space) |
@@ -11,7 +11,7 @@
 
 ---
 *Navigate: read this file first, then drill into a topic's _index.md, then specific articles.*
-*Last updated: 2026-07-11*
+*Last updated: 2026-07-13*
 
 ---
 
@@ -21,7 +21,7 @@
 
 | 주제 | 설명 |
 |-------|-------------|
-| [[ai-futures/_index\|ai-futures]] | AGI/ASI 예측 및 정렬 분석 — AI 2027 시나리오, AGI→ASI 경로, 재귀적 자기 개선 증거, 미중 경쟁, 정렬 실패 호 |
+| [[ai-futures/_index\|ai-futures]] | AGI/ASI 예측 및 정렬 분석 — AI 2027 시나리오, AI 2040 플랜 A 거버넌스 제안, AGI→ASI 경로, 재귀적 자기 개선 증거, 미중 경쟁, 정렬 실패 호 |
 | [[claude-code-skills/_index\|claude-code-skills]] | 스킬, 훅, CLAUDE.md — 재사용 가능한 SKILL.md 파일로 Claude Code 확장; 상위 10개 커뮤니티 스킬; Obsidian 워크플로우 |
 | [[meta/_index\|meta]] | 위키 자체에 관한 글 — 설계, 규칙, LLM 위키 패턴 |
 | [[llm-interpretability/_index\|llm-interpretability]] | LLM의 기계적 해석 가능성 — 감정 회로, 뉴런/헤드 식별, 회로 수준 제어, 전역 작업공간(J-공간) |
@@ -30,6 +30,6 @@
 
 ---
 *탐색: 이 파일을 먼저 읽고, 주제의 _index.md로 내려간 후, 특정 글을 읽으세요.*
-*최종 업데이트: 2026-07-11*
+*최종 업데이트: 2026-07-13*
 
 

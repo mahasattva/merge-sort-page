@@ -90,6 +90,7 @@
 - [[ai-2027-alignment]] — the alignment failure arc: Agent-1 through Agent-4, LLM psychology, how goals get distorted
 - [[from-agi-to-asi]] — DeepMind's theoretical map of the AGI→ASI pathways this scenario dramatizes; same hinge on AI-R&D automation
 - [[when-ai-builds-itself]] — 2026 empirical data from inside Anthropic tracking the AI-accelerates-AI feedback loop this scenario projects
+- [[ai-2040-plan-a]] — the same authors' sequel and policy recommendation: a transparency-and-verification deal that avoids this scenario's race/slowdown endings by stretching the same intelligence explosion across 13 years instead of 2.5
 - [[ai-futures/_index]] — topic index
 
 ---
@@ -191,6 +192,7 @@
 - [[ai-2027-alignment]] — 정렬 실패 호: Agent-1에서 Agent-4, LLM 심리학, 목표가 어떻게 왜곡되는가
 - [[from-agi-to-asi]] — 이 시나리오가 극화한 AGI→ASI 경로에 대한 DeepMind의 이론적 지도; AI 연구개발 자동화라는 같은 축
 - [[when-ai-builds-itself]] — 이 시나리오가 전망한 AI-가속-AI 피드백 루프를 추적하는 Anthropic 내부의 2026년 실측 데이터
+- [[ai-2040-plan-a]] — 동일 저자들의 후속작이자 정책 권고안: 동일한 지능 폭발을 2.5년이 아닌 13년에 걸쳐 늘려 이 시나리오의 경쟁/둔화 결말을 피하는 투명성·검증 협정
 - [[ai-futures/_index]] — 주제 색인
 
 ---

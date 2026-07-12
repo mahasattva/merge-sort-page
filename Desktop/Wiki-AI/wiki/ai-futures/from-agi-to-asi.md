@@ -65,6 +65,7 @@
 - [[ai-2027-alignment]] — the alignment failure arc this report brackets out via its "alignment will be solved" working assumption
 - [[animals-vs-ghosts]] — Sutton's bitter lesson (cited by the report as the argument for the scaling pathway) and the data-wall/human-distillation problem behind the abstraction barrier
 - [[in-context-scheming]] — empirical evidence of the instrumental-convergence behaviors (self-preservation, oversight subversion) discussed in the report's ASI-goals section
+- [[ai-2040-plan-a]] — a governance proposal that operationalizes this report's "deliberate slowdown" bottleneck into a concrete verification-and-transparency regime
 
 ---
 *Source: raw/From_AGI_to_ASI.pdf (Genewein et al., Google DeepMind, arXiv:2606.12683, 2026-06-10) | Compiled: 2026-07-11*
@@ -140,6 +141,7 @@
 - [[ai-2027-alignment]] — 이 보고서가 "정렬은 해결될 것"이라는 작업 가정으로 괄호 친 정렬 실패 호
 - [[animals-vs-ghosts]] — Sutton의 쓴 교훈(보고서가 스케일링 경로의 논거로 인용)과 추상화 장벽 배후의 데이터 장벽/인간 증류 문제
 - [[in-context-scheming]] — 보고서의 ASI 목표 절에서 논의된 도구적 수렴 행동(자기 보존, 감독 전복)의 경험적 증거
+- [[ai-2040-plan-a]] — 이 보고서의 "의도적 둔화" 병목을 구체적인 검증·투명성 체제로 구현하는 거버넌스 제안
 
 ---
 *출처: raw/From_AGI_to_ASI.pdf (Genewein et al., Google DeepMind, arXiv:2606.12683, 2026-06-10) | 편집: 2026-07-11*

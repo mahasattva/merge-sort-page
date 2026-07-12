@@ -11,9 +11,10 @@
 | [[animals-vs-ghosts]] | Karpathy's ghost vs animal framing: LLMs as statistical distillations of humanity; Sutton's bitter lesson critique; pretraining as crappy evolution |
 | [[from-agi-to-asi]] | DeepMind 2026 report: AGI/ASI/Universal-AI definitions, 6 digital-intelligence advantages, 4 pathways to ASI, 6 bottlenecks, research agenda |
 | [[when-ai-builds-itself]] | Anthropic Institute: internal evidence AI already accelerates AI development (80% of code, 8× output, taste gap closing); 3 futures up to full recursive self-improvement; verifiable-pause proposal |
+| [[ai-2040-plan-a]] | AI Futures Project's sequel to AI 2027: a US-China transparency deal delaying superintelligence to 2040 — 4 core principles, Mutually Assured Compute Destruction, Citizen's Dividend, alignment eras, space-governance epilogue |
 
 ---
-*Last updated: 2026-07-11 | 7 articles*
+*Last updated: 2026-07-13 | 8 articles*
 
 ---
 
@@ -32,6 +33,7 @@
 | [[animals-vs-ghosts]] | Karpathy의 유령 vs 동물 프레이밍: LLM은 인류의 통계적 증류물; Sutton의 쓴 교훈 비판; 사전 학습 = 조잡한 진화 |
 | [[from-agi-to-asi]] | DeepMind 2026 보고서: AGI/ASI/Universal-AI 정의, 디지털 지능의 6가지 이점, ASI로 가는 4가지 경로, 6가지 병목, 연구 의제 |
 | [[when-ai-builds-itself]] | Anthropic Institute: AI가 이미 AI 개발을 가속한다는 내부 증거(코드의 80%, 산출 8배, 감각 격차 축소); 완전한 재귀적 자기 개선까지 3가지 미래; 검증 가능한 일시 정지 제안 |
+| [[ai-2040-plan-a]] | AI Futures Project의 AI 2027 후속작: 초지능을 2040년까지 지연시키는 미중 투명성 협정 — 4가지 핵심 원칙, 상호확증 컴퓨팅 파괴, 시민 배당, 정렬 시대, 우주 거버넌스 에필로그 |
 
 ---
-*최종 업데이트: 2026-07-11 | 글 7개*
+*최종 업데이트: 2026-07-13 | 글 8개*

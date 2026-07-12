@@ -56,6 +56,7 @@
 - [[ai-2027-alignment]] — scenario 3's "misalignment compounding across self-built successors" is the mechanism the AI 2027 alignment arc dramatizes
 - [[project-glasswing]] — cited directly as evidence that even frozen capabilities transform the world: 10,000+ high/critical vulnerabilities found in weeks, moving the bottleneck to patching
 - [[animals-vs-ghosts]] — Karpathy's skepticism about scaling-to-taste is a live counterargument to this piece's less-conservative reading
+- [[ai-2040-plan-a]] — a detailed scenario for the verifiable coordinated-pause proposal this piece calls for, built around exactly the AI-R&D-automation trigger point described here
 
 ---
 *Source: raw/When AI builds itself.md (Anthropic Institute, anthropic.com/institute/recursive-self-improvement, clipped 2026-06-05) | Compiled: 2026-07-11*
@@ -122,6 +123,7 @@
 - [[ai-2027-alignment]] — 시나리오 3의 "자기 제작 후속 모델을 거치며 복리화되는 비정렬"은 AI 2027 정렬 호가 극화한 메커니즘
 - [[project-glasswing]] — 역량이 동결돼도 세계가 변한다는 증거로 직접 인용: 몇 주 만에 1만 건 이상의 고위험/치명적 취약점 발견, 병목이 패치로 이동
 - [[animals-vs-ghosts]] — 스케일링으로 감각에 도달할 수 있다는 이 글의 덜 보수적인 해석에 대한 살아있는 반론이 Karpathy의 회의론
+- [[ai-2040-plan-a]] — 이 글이 촉구하는 검증 가능한 조율된 일시 정지 제안을 구체화한 시나리오, 바로 여기서 설명된 AI 연구개발 자동화 방아쇠 시점을 중심으로 구성됨
 
 ---
 *출처: raw/When AI builds itself.md (Anthropic Institute, anthropic.com/institute/recursive-self-improvement, 클리핑 2026-06-05) | 편집: 2026-07-11*
