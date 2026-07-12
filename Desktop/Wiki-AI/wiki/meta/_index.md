@@ -7,7 +7,7 @@
 | [[llm-wiki-pattern]] | The core LLM Wiki method — why it works, three layers, three operations, tooling |
 
 ---
-*Last updated: 2026-04-07*
+*Last updated: 2026-04-07 | 1 article*
 
 ---
 
@@ -22,4 +22,4 @@
 | [[llm-wiki-pattern]] | LLM 위키의 핵심 방법론 — 작동 원리, 세 가지 레이어, 세 가지 운영 방식, 도구 |
 
 ---
-*최종 업데이트: 2026-04-07*
+*최종 업데이트: 2026-04-07 | 글 1개*

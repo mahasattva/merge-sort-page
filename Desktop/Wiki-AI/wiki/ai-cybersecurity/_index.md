@@ -7,7 +7,7 @@
 | [[project-glasswing]] | Anthropic's Project Glasswing: Claude Mythos Preview, zero-day discovery at scale, cross-industry defensive coalition |
 
 ---
-*Topic created: 2026-04-09*
+*Topic created: 2026-04-09 | 1 article*
 
 ---
 
@@ -22,4 +22,4 @@
 | [[project-glasswing]] | Anthropic의 프로젝트 글라스윙: Claude Mythos Preview, 대규모 제로데이 발견, 산업 간 방어 연합 |
 
 ---
-*주제 생성일: 2026-04-09*
+*주제 생성일: 2026-04-09 | 글 1개*
