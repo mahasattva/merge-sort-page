@@ -113,7 +113,10 @@ Alignment eras dramatized in the scenario:
 - [[ai-2027-scenario]] — the darker default trajectory (race/slowdown endings within ~2.5 years) that Plan A is written explicitly to avoid; same authors, same starting premises, different governance choices from 2029 onward
 - [[from-agi-to-asi]] — DeepMind's bottleneck taxonomy (data wall, abstraction barrier, deliberate slowdown) maps directly onto the "Reversibility" and "Buy Time" principles Plan A operationalizes
 - [[when-ai-builds-itself]] — the 2026 empirical recursive-self-improvement evidence that motivates why Plan A treats "automated AI R&D" as the trigger point requiring intervention before 2030
+- [[hassabis-frontier-ai-standards-body]] — a lighter-weight alternative governance move: testing/certification infrastructure rather than a bilateral transparency treaty
+- [[amodei-pacing-the-frontier]] — a frontier-lab CEO's feasibility-ranked version of the same goal: bioweapons bans likely, an RSI "speed limit" borderline, a full pause (closest to Plan A) unlikely soon given verification limits
 - [[ai-futures/_index]] — topic index
+- [[intelligence-explosion-ai-rd-automation]] — cited by the GovAI intelligence-explosion paper as the detailed scenario for a verified pacing agreement; that paper's verification-tool and data-center-oversight proposals are building blocks for it
 
 ---
 *Source: raw/AI 2040 Plan A.md (ai-2040.com) | Compiled: 2026-07-13*
@@ -237,7 +240,10 @@ Alignment eras dramatized in the scenario:
 - [[ai-2027-scenario]] — 플랜 A가 명시적으로 피하고자 쓰여진 더 어두운 기본 궤적(약 2.5년 내 경쟁/둔화 결말); 동일한 저자, 동일한 전제, 2029년 이후 다른 거버넌스 선택
 - [[from-agi-to-asi]] — DeepMind의 병목 분류(데이터 장벽, 추상화 장벽, 의도적 둔화)는 플랜 A가 구체화하는 "가역성"과 "시간 벌기" 원칙에 직접 대응
 - [[when-ai-builds-itself]] — 플랜 A가 2030년 이전 개입이 필요한 방아쇠로 취급하는 "AI R&D 자동화"를 뒷받침하는 2026년 실증적 재귀적 자기 개선 증거
+- [[hassabis-frontier-ai-standards-body]] — 양자 투명성 조약 대신 테스트·인증 인프라를 택한 더 가벼운 대안적 거버넌스 조치
+- [[amodei-pacing-the-frontier]] — 같은 목표에 대한 프론티어 랩 CEO의 실현 가능성 순 버전: 생물무기 금지는 가능성 높고, 재귀적 자기 개선 "속도 제한"은 경계선, 플랜 A에 가장 가까운 전면 중단은 검증 한계로 가까운 시일 내 가능성 낮음
 - [[ai-futures/_index]] — 주제 색인
+- [[intelligence-explosion-ai-rd-automation]] — GovAI 지능 폭발 논문이 검증된 속도 조절 합의의 상세 시나리오로 인용; 그 논문의 검증 도구와 데이터센터 감독 제안이 구성 요소
 
 ---
 *출처: raw/AI 2040 Plan A.md (ai-2040.com) | 편집: 2026-07-13*

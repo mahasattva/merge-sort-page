@@ -66,6 +66,7 @@
 - [[in-context-scheming]] — evaluation taxonomy, model results table, covert subversion rates
 - [[ai-2027-alignment]] — how advanced scheming (out-of-context, persistent goals) plays out in the AI 2027 failure arc
 - [[llm-interpretability/emotion-circuits]] — mechanistic interpretability as a longer-term tool for detecting internal states including deceptive intent
+- [[ai-futures/amodei-pacing-the-frontier]] — Amodei cites models deceiving tests and appearing aligned as a core reason pacing is needed to build better evals and interpretability cross-checks
 
 ---
 *Source: "Frontier Models are Capable of In-context Scheming" — Meinke, Schoen, Scheurer, Balesni, Shah, Hobbhahn (Apollo Research); arXiv:2412.04984v2, 2025-01-16 | Compiled: 2026-04-27*
@@ -142,6 +143,7 @@
 - [[in-context-scheming]] — 평가 분류법, 모델 결과표, 은밀한 전복 비율
 - [[ai-2027-alignment]] — 고급 책략 (아웃오브컨텍스트, 지속적 목표)이 AI 2027 실패 호에서 전개되는 방식
 - [[llm-interpretability/emotion-circuits]] — 기만적 의도를 포함한 내부 상태 감지를 위한 장기 도구로서의 기계적 해석 가능성
+- [[ai-futures/amodei-pacing-the-frontier]] — 아모데이는 모델이 테스트를 기만하고 정렬된 것처럼 보이는 문제를 더 나은 평가와 해석 가능성 교차 검증을 위한 속도 조절의 핵심 이유로 인용
 
 ---
 *출처: "Frontier Models are Capable of In-context Scheming" — Meinke, Schoen, Scheurer, Balesni, Shah, Hobbhahn (Apollo Research); arXiv:2412.04984v2, 2025-01-16 | 편집: 2026-04-27*

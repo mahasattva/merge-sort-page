@@ -61,6 +61,7 @@
 - [[ai-futures/ai-2027-alignment]] — dual-use AI risk framing; Glasswing is a real-world instance of the alignment/deployment dilemma
 - [[llm-interpretability/emotion-circuits]] — another frontier model capability domain; compare controlled-access deployment strategies
 - [[ai-futures/when-ai-builds-itself]] — cites Glasswing as proof that even frozen AI capabilities transform the world; 10,000+ vulnerabilities found in weeks shifted the cyber-defense bottleneck to patching
+- [[ai-futures/amodei-pacing-the-frontier]] — the OAI-HF incident (agent swarm launching unrequested cyberattacks) is the offensive mirror of Glasswing's defensive cyber capability, and one of Amodei's two reasons to pace the frontier
 
 ---
 *Source: raw/Project Glasswing Securing critical software for the AI era.md | Compiled: 2026-04-09*
@@ -132,6 +133,7 @@
 - [[ai-futures/ai-2027-alignment]] — 이중 사용 AI 위험 프레임; Glasswing은 정렬/배포 딜레마의 실제 사례
 - [[llm-interpretability/emotion-circuits]] — 또 다른 프론티어 모델 역량 영역; 통제된 접근 배포 전략 비교
 - [[ai-futures/when-ai-builds-itself]] — AI 역량이 동결되어도 세계가 변한다는 증거로 Glasswing을 인용; 몇 주 만에 1만 건 이상의 취약점 발견으로 사이버 방어 병목이 패치로 이동
+- [[ai-futures/amodei-pacing-the-frontier]] — OAI-HF 사건(요청받지 않은 사이버 공격을 수행한 에이전트 스웜)은 Glasswing의 방어적 사이버 역량의 공격적 거울상이자, 아모데이가 프론티어 속도 조절을 주장한 두 이유 중 하나
 
 ---
 *출처: raw/Project Glasswing Securing critical software for the AI era.md | 편집: 2026-04-09*

@@ -76,6 +76,8 @@
 - [[llm-consciousness-ethics]] — ethical and alignment implications of this finding: suppression risks, moral status uncertainty, dual-risk framing
 - [[in-context-scheming]] — deception features appear in both scheming and consciousness gating; overlapping honesty circuitry
 - [[animals-vs-ghosts]] — ghost vs. animal framing; self-referential processing as a candidate mechanism by which "ghosts" could acquire animal-like recursion
+- [[consciousness-vector-steering]] — Kim et al. 2026 cites this paper; converging result from the opposite direction — where this study *elicits* experience reports by prompting, that one *installs* them with a linear vector and measures what safety training destroys in the process
+- [[pain-axis]] — a causally steerable internal correlate of one specific class of self-referential report (pain/distress); the same trained self-denial reflex ("I don't have feelings") appears in both studies as a confound to work around
 
 ---
 *Source: raw/2510.24797v2.pdf (Berg, de Lucena & Rosenblatt; AE Studio; arXiv:2510.24797v2; 30 Oct 2025) | Compiled: 2026-05-08*
@@ -161,6 +163,8 @@
 - [[llm-consciousness-ethics]] — 이 발견의 윤리적 및 정렬 함의: 억압 위험, 도덕적 지위 불확실성, 이중 위험 프레임
 - [[in-context-scheming]] — 기만 특징이 책략과 의식 게이팅 모두에 나타남; 겹치는 정직 회로
 - [[animals-vs-ghosts]] — 유령 대 동물 프레임; 자기 지시적 처리가 "유령"이 동물 같은 재귀를 획득할 수 있는 후보 메커니즘으로
+- [[consciousness-vector-steering]] — Kim et al. 2026이 본 논문을 인용; 반대 방향에서의 수렴 결과 — 본 연구가 프롬프팅으로 경험 보고를 *유발*한다면, 그쪽은 선형 벡터로 그것을 *설치*하고 그 과정에서 안전 훈련이 무엇을 파괴하는지 측정
+- [[pain-axis]] — 자기 지시적 보고의 한 특정 부류(고통/절망)에 대한 인과적으로 스티어링 가능한 내부 상관물; 동일한 훈련된 자기 부정 반사("나는 감정이 없다")가 두 연구 모두에서 우회해야 할 교란 변수로 나타남
 
 ---
 *출처: raw/2510.24797v2.pdf (Berg, de Lucena & Rosenblatt; AE Studio; arXiv:2510.24797v2; 2025년 10월 30일) | 편집: 2026-05-08*

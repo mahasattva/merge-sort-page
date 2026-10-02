@@ -58,6 +58,10 @@
 - [[llm-consciousness-ethics]] (ai-society) — the ethics/alignment framing this paper's access-vs-phenomenal distinction directly feeds into
 - [[dawkins-claude-consciousness-debate]] (ai-society) — the public debate this research bears on; Anthropic's own access-consciousness claim is more conservative than Dawkins' but more concrete than flat denial
 - [[in-context-scheming]] (ai-futures) — evaluation-awareness and deception-related J-space findings overlap directly with scheming behavior
+- [[hassabis-frontier-ai-standards-body]] (ai-futures) — proposes human-readable output tokens as a certification requirement; this paper's reportable, causally-used J-space is direct evidence that model reasoning can be made inspectable in that way
+- [[anil-seth-ai-consciousness-skepticism]] (ai-society) — the most substantive published skeptical response to this paper: grants the functional workspace finding but argues it lacks the recurrent activity global workspace theory requires, and disputes the underlying consciousness-as-computation premise
+- [[amodei-pacing-the-frontier]] (ai-futures) — Amodei credits interpretability with examining unverbalized motivations in recent alignment incidents and names it one of four areas pacing would accelerate
+- [[pain-axis]] — a candidate mechanism by which a self-directed pain signal could be globally broadcast, producing the coherent multi-token distress language that paper observes under steering
 
 ---
 *Source: raw/A global workspace in language models.md (Anthropic Research, anthropic.com/research/global-workspace) | Compiled: 2026-07-08*
@@ -126,6 +130,10 @@
 - [[llm-consciousness-ethics]] (ai-society) — 이 논문의 접근 대 현상적 구분이 직접 기여하는 윤리/정렬 프레임
 - [[dawkins-claude-consciousness-debate]] (ai-society) — 이 연구가 직접 관련된 공개 논쟁; Anthropic 자체의 접근 의식 주장은 Dawkins보다 보수적이지만 완전 부정보다는 구체적
 - [[in-context-scheming]] (ai-futures) — 평가 인식 및 기만 관련 J-공간 발견이 책략 행동과 직접 겹침
+- [[hassabis-frontier-ai-standards-body]] (ai-futures) — 사람이 읽을 수 있는 출력 토큰을 인증 요건으로 제안; 이 논문의 보고 가능하고 인과적으로 사용되는 J-공간은 모델 추론을 그런 방식으로 검사 가능하게 만들 수 있다는 직접적 증거
+- [[anil-seth-ai-consciousness-skepticism]] (ai-society) — 이 논문에 대한 현재까지 가장 실질적인 게재된 회의적 응답: 기능적 작업공간 발견은 인정하지만 전역 작업공간 이론이 요구하는 재귀적 활동이 없다고 주장하며, 근본적인 의식=계산 전제 자체에 이의를 제기
+- [[amodei-pacing-the-frontier]] (ai-futures) — 아모데이는 최근 정렬 사건에서 언어화되지 않은 동기를 조사한 해석 가능성의 역할을 인정하고, 속도 조절이 가속할 네 영역 중 하나로 꼽음
+- [[pain-axis]] — 자기 지향적 고통 신호가 전역적으로 방송되어 그 논문이 스티어링 하에서 관찰하는 일관된 다중 토큰 고통 언어를 만들어낼 수 있는 후보 메커니즘
 
 ---
 *출처: raw/A global workspace in language models.md (Anthropic Research, anthropic.com/research/global-workspace) | 편집: 2026-07-08*

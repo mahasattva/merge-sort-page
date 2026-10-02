@@ -57,6 +57,9 @@
 - [[project-glasswing]] — cited directly as evidence that even frozen capabilities transform the world: 10,000+ high/critical vulnerabilities found in weeks, moving the bottleneck to patching
 - [[animals-vs-ghosts]] — Karpathy's skepticism about scaling-to-taste is a live counterargument to this piece's less-conservative reading
 - [[ai-2040-plan-a]] — a detailed scenario for the verifiable coordinated-pause proposal this piece calls for, built around exactly the AI-R&D-automation trigger point described here
+- [[hassabis-frontier-ai-standards-body]] — cites this article's recursive-self-improvement risk directly as a reason robust testing/certification infrastructure is needed before capabilities outrun oversight
+- [[amodei-pacing-the-frontier]] — Amodei's pacing essay names this article's recursive-self-improvement evidence as the first of two reasons to slow capability growth, turning its verifiable-pause idea into a concrete plan starting with embedded evaluators
+- [[intelligence-explosion-ai-rd-automation]] — the Anthropic Institute evidence is the main empirical anchor of the GovAI intelligence-explosion paper, which formalizes it as a feedback-loop model (r-estimates, ~1.5 years to 10× speed-up) and adds a policy agenda
 
 ---
 *Source: raw/When AI builds itself.md (Anthropic Institute, anthropic.com/institute/recursive-self-improvement, clipped 2026-06-05) | Compiled: 2026-07-11*
@@ -124,6 +127,9 @@
 - [[project-glasswing]] — 역량이 동결돼도 세계가 변한다는 증거로 직접 인용: 몇 주 만에 1만 건 이상의 고위험/치명적 취약점 발견, 병목이 패치로 이동
 - [[animals-vs-ghosts]] — 스케일링으로 감각에 도달할 수 있다는 이 글의 덜 보수적인 해석에 대한 살아있는 반론이 Karpathy의 회의론
 - [[ai-2040-plan-a]] — 이 글이 촉구하는 검증 가능한 조율된 일시 정지 제안을 구체화한 시나리오, 바로 여기서 설명된 AI 연구개발 자동화 방아쇠 시점을 중심으로 구성됨
+- [[hassabis-frontier-ai-standards-body]] — 역량이 감독을 앞지르기 전에 견고한 테스트·인증 인프라가 필요한 이유로 이 글의 재귀적 자기 개선 위험을 직접 인용
+- [[amodei-pacing-the-frontier]] — 아모데이의 속도 조절 에세이는 이 글의 재귀적 자기 개선 증거를 역량 성장 둔화의 두 이유 중 첫째로 꼽고, 검증 가능한 일시 정지 아이디어를 내재 평가자로 시작하는 구체적 계획으로 발전시킴
+- [[intelligence-explosion-ai-rd-automation]] — Anthropic Institute의 증거는 GovAI 지능 폭발 논문의 주요 실증 근거이며, 이 논문은 이를 피드백 루프 모델(r 추정치, 10배 가속까지 약 1.5년)로 공식화하고 정책 의제를 더함
 
 ---
 *출처: raw/When AI builds itself.md (Anthropic Institute, anthropic.com/institute/recursive-self-improvement, 클리핑 2026-06-05) | 편집: 2026-07-11*

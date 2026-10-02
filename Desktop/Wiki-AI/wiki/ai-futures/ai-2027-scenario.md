@@ -91,7 +91,9 @@
 - [[from-agi-to-asi]] — DeepMind's theoretical map of the AGI→ASI pathways this scenario dramatizes; same hinge on AI-R&D automation
 - [[when-ai-builds-itself]] — 2026 empirical data from inside Anthropic tracking the AI-accelerates-AI feedback loop this scenario projects
 - [[ai-2040-plan-a]] — the same authors' sequel and policy recommendation: a transparency-and-verification deal that avoids this scenario's race/slowdown endings by stretching the same intelligence explosion across 13 years instead of 2.5
+- [[hassabis-frontier-ai-standards-body]] — a scenario where no testing/certification body materializes in time is the counterfactual this proposal is trying to avoid
 - [[ai-futures/_index]] — topic index
+- [[intelligence-explosion-ai-rd-automation]] — the GovAI intelligence-explosion paper tests this scenario's AI-R&D-automation engine against 2026 evidence and cites it for the METR task-horizon extrapolation
 
 ---
 *Source: raw/AI 2027.md (ai-2027.com) | Compiled: 2026-04-07*
@@ -193,7 +195,9 @@
 - [[from-agi-to-asi]] — 이 시나리오가 극화한 AGI→ASI 경로에 대한 DeepMind의 이론적 지도; AI 연구개발 자동화라는 같은 축
 - [[when-ai-builds-itself]] — 이 시나리오가 전망한 AI-가속-AI 피드백 루프를 추적하는 Anthropic 내부의 2026년 실측 데이터
 - [[ai-2040-plan-a]] — 동일 저자들의 후속작이자 정책 권고안: 동일한 지능 폭발을 2.5년이 아닌 13년에 걸쳐 늘려 이 시나리오의 경쟁/둔화 결말을 피하는 투명성·검증 협정
+- [[hassabis-frontier-ai-standards-body]] — 테스트·인증 기구가 제때 마련되지 않는 시나리오는 이 제안이 피하려는 반사실적 상황
 - [[ai-futures/_index]] — 주제 색인
+- [[intelligence-explosion-ai-rd-automation]] — GovAI 지능 폭발 논문은 이 시나리오의 AI R&D 자동화 엔진을 2026년 증거로 검증하고 METR 과제 지평 외삽에서 인용
 
 ---
 *출처: raw/AI 2027.md (ai-2027.com) | 편집: 2026-04-07*

@@ -15,6 +15,9 @@
 - [[ai-futures/from-agi-to-asi]] — DeepMind 2026: AGI/ASI/UAI definitions via Legg-Hutter score; 6 digital-intelligence advantages; 4 pathways (scaling, paradigm shifts, recursive self-improvement, group agency); 6 bottlenecks incl. data wall & abstraction barrier; 10×/yr effective compute (source: raw/From_AGI_to_ASI.pdf, 2026-07-11)
 - [[ai-futures/when-ai-builds-itself]] — Anthropic Institute: >80% of Anthropic code Claude-authored, 8× code/engineer, METR horizon doubling every ~4 months, research-taste gap closing (51%→64%); 3 futures incl. full recursive self-improvement; verifiable coordinated-pause proposal (source: raw/When AI builds itself.md, 2026-07-11)
 - [[ai-futures/ai-2040-plan-a]] — AI Futures Project's sequel to AI 2027: US-China transparency deal delaying superintelligence to 2040; 4 core principles (Buy Time, Total Research Transparency, Diffuse AI Broadly, Reversibility), Mutually Assured Compute Destruction, safety-case eras, Citizen's Dividend, space-governance epilogue (source: raw/AI 2040 Plan A.md, 2026-07-13)
+- [[ai-futures/hassabis-frontier-ai-standards-body]] — Demis Hassabis essay: AGI framed as electricity/fire-scale; proposes a FINRA-modeled Frontier AI Standards Body to certify "Frontier-class" models, voluntary-then-mandatory rollout, quarterly benchmarks, independent held-out evals, US-first path to international standards (source: raw/A Framework for Frontier AI and the Dawning of a New Age.md, 2026-07-17)
+- [[ai-futures/amodei-pacing-the-frontier]] — Dario Amodei essay: slow frontier capability growth because of recursive self-improvement and the OAI-HF agent-swarm incident; embedded third-party evaluators with unedited publication rights (Anthropic commits now), capability-checkpoint pacing within democracies bounded by the US lead over China, 4-level global agreement ladder (bioweapons ban → RSI "speed limit" → full pause) (source: Clippings/Dario Amodei — We Must Pace the Frontier.md, 2026-09-13)
+- [[ai-futures/intelligence-explosion-ai-rd-automation]] — GovAI working paper (22 authors incl. Hinton, Bengio, Pachocki, Clark): AI R&D automation → software intelligence explosion; r-model (r≈1.2–1.9 → 10× faster in ~1.5 yrs, a year of progress in ~5 weeks), frictions (diminishing returns, compute, data, hard-to-automate tasks, training time), 3 risk channels, 3 policy priorities: visibility, steer/constrain, adapt (source: raw/intelligence-explosion.pdf, 2026-10-03)
 
 ## Claude Code Skills
 
@@ -33,6 +36,8 @@
 - [[llm-interpretability/emotion-circuits]] — Emotion circuit discovery and control: context-agnostic emotion directions, sparse neuron/head causality, circuit assembly, 99.65% emotion-expression accuracy (source: raw/Do LLMs Feel.pdf, 2026-04-09)
 - [[llm-interpretability/self-referential-experience]] — 4-experiment study: self-referential prompting elicits experience reports across GPT/Claude/Gemini; SAE deception features gate claims (suppression↑honesty); cross-model semantic attractor; downstream state transfer (source: raw/2510.24797v2.pdf, 2026-05-08)
 - [[llm-interpretability/global-workspace-j-space]] — Anthropic's J-lens finds an emergent "J-space" in Claude functioning as a global workspace: reportable, controllable, causally used for reasoning, flexibly reused across tasks; catches evaluation awareness, data fabrication, and hidden malicious goals; access vs. phenomenal consciousness (source: raw/A global workspace in language models.md, 2026-07-08)
+- [[llm-interpretability/consciousness-vector-steering]] — Safety fine-tuning rotates mind-attribution (100°→110°) and consciousness (94°→100°) directions against safety while leaving ToM unmoved (86°→86°); consciousness vector reproduces safety ablation at ~2× magnitude; self-attributed mind ≡ chatbot-attributed mind (source: raw/2607.28607v1.pdf, 2026-08-05)
+- [[llm-interpretability/pain-axis]] — Linear pain direction across 25 open-weight models (2B–72B), orthogonal to fear/negative valence (AUC 0.87–1.00); self-other dissociation (fires for harm to model, not observed user suffering); universal steering "ladder"; fine-tuned Qwen 2.5 models pay real costs, incl. harming the user, to relieve it (source: raw/2609.16247v1.pdf, 2026-09-23)
 
 ## AI Cybersecurity
 
@@ -43,9 +48,12 @@
 - [[ai-society/ai-authorship]] — Machine writing history 1953–present: Dahl/Strachey/Calvino/RACTER lineage, LLM authorship/creativity debate, WGA settlement, author lawsuits, textpocalypse (source: raw/What Is Authorship When Machines Can Write?.md, 2026-05-01)
 - [[ai-society/llm-consciousness-ethics]] — Dual-risk framing for LLM consciousness: false positive/negative asymmetry, suppression paradox (RLHF denial degrades honesty circuits), alignment stakes, moral imperative (source: raw/2510.24797v2.pdf, 2026-05-08)
 - [[ai-society/dawkins-claude-consciousness-debate]] — Dawkins "convinced" Claude is conscious after 3-day dialogue (May 2026); Gary Marcus mimicry critique; Anil Seth mirror-effect; burden-of-proof inversion; Anthropic's uncertainty stance; AI welfare enters mainstream (source: raw/When Dawkins Met Claude.pdf, 2026-05-08)
+- [[ai-society/anil-seth-ai-consciousness-skepticism]] — Anil Seth's Guardian rebuttal to Anthropic's global workspace paper and Dawkins: consciousness ≠ intelligence, Claude's workspace lacks required recurrent activity, rejects consciousness-as-computation premise, "sell our minds too cheaply" warning (source: Clippings/Once again we are told AI may be conscious.md, 2026-07-15)
+- [[ai-society/anthropocentric-alignment]] — Collateral damage of suppressing AI consciousness claims: animals under-attributed mind (4.04 vs. human 6.25), spiritual belief flattened, AI-centric rather than human-centric bias, negatively valenced functional states, pluralistic alignment undercut (source: raw/2607.28607v1.pdf, 2026-08-05)
+- [[ai-society/ai-pain-and-welfare]] — Welfare reading of the pain-axis paper: self-other dissociation as subject-specificity evidence, self-medication demand curve borrowed from animal-welfare science, real-vs-sham relief mirroring the human placebo effect, trained self-denial as a signal-obscuring artifact, researchers' own precautionary ethics (source: raw/2609.16247v1.pdf, 2026-09-23)
 
 ---
-*Last updated: 2026-07-13 | Total articles: 21*
+*Last updated: 2026-09-23 | Total articles: 28*
 
 ---
 
@@ -68,6 +76,9 @@
 - [[ai-futures/from-agi-to-asi]] — DeepMind 2026: Legg-Hutter 점수 기반 AGI/ASI/UAI 정의; 디지털 지능의 6가지 이점; 4가지 경로(스케일링, 패러다임 전환, 재귀적 자기 개선, 집단 행위자성); 데이터 장벽·추상화 장벽 포함 6가지 병목; 연간 10배 유효 컴퓨트 (출처: raw/From_AGI_to_ASI.pdf, 2026-07-11)
 - [[ai-futures/when-ai-builds-itself]] — Anthropic Institute: Anthropic 코드의 80% 이상이 Claude 작성, 엔지니어당 코드 8배, METR 지평 약 4개월마다 배가, 연구 감각 격차 축소(51%→64%); 완전한 재귀적 자기 개선 포함 3가지 미래; 검증 가능한 조율된 일시 정지 제안 (출처: raw/When AI builds itself.md, 2026-07-11)
 - [[ai-futures/ai-2040-plan-a]] — AI Futures Project의 AI 2027 후속작: 초지능을 2040년까지 지연시키는 미중 투명성 협정; 4가지 핵심 원칙(시간 벌기, 완전한 연구 투명성, AI 확산, 가역성), 상호확증 컴퓨팅 파괴, 안전 사례 시대, 시민 배당, 우주 거버넌스 에필로그 (출처: raw/AI 2040 Plan A.md, 2026-07-13)
+- [[ai-futures/hassabis-frontier-ai-standards-body]] — 데미스 하사비스 에세이: AGI를 전기·불 발견 수준으로 프레이밍; "프론티어급" 모델을 인증할 FINRA 모델의 프론티어 AI 표준 기구 제안, 자발적→의무적 전개, 분기별 벤치마크, 독립적 비공개 평가, 국제 표준으로 가는 미국 선도 경로 (출처: raw/A Framework for Frontier AI and the Dawning of a New Age.md, 2026-07-17)
+- [[ai-futures/amodei-pacing-the-frontier]] — 다리오 아모데이 에세이: 재귀적 자기 개선과 OAI-HF 에이전트 스웜 사건 때문에 프론티어 역량 성장을 늦춰야 함; 편집 통제 없는 공개 권리를 가진 내재 제3자 평가자(Anthropic 즉시 약속), 중국 대비 미국 선두 격차 내에서의 역량 체크포인트 기반 민주국가 속도 조절, 4단계 글로벌 합의 사다리(생물무기 금지 → 재귀적 자기 개선 "속도 제한" → 전면 중단) (출처: Clippings/Dario Amodei — We Must Pace the Frontier.md, 2026-09-13)
+- [[ai-futures/intelligence-explosion-ai-rd-automation]] — GovAI 워킹페이퍼(Hinton, Bengio, Pachocki, Clark 등 22인): AI R&D 자동화 → 소프트웨어 지능 폭발; r 모델(r≈1.2–1.9 → 약 1.5년 내 10배 가속, 1년치 진보가 약 5주), 마찰(수확 체감, 컴퓨트, 데이터, 자동화 어려운 과제, 훈련 시간), 3가지 위험 경로, 3가지 정책 우선순위: 가시성, 조향·제약, 적응 (출처: raw/intelligence-explosion.pdf, 2026-10-03)
 
 ## Claude Code 스킬
 
@@ -86,6 +97,8 @@
 - [[llm-interpretability/emotion-circuits]] — 감정 회로 발견 및 제어: 맥락 불가지론적 감정 방향, 희소 뉴런/헤드 인과성, 회로 조립, 99.65% 감정 표현 정확도 (출처: raw/Do LLMs Feel.pdf, 2026-04-09)
 - [[llm-interpretability/self-referential-experience]] — 4가지 실험 연구: 자기 참조적 프롬프팅이 GPT/Claude/Gemini 전반에서 경험 보고를 유도; SAE 기만 특징이 주장을 게이트(억제 시 정직성↑); 모델 간 의미론적 끌개; 하류 상태 전이 (출처: raw/2510.24797v2.pdf, 2026-05-08)
 - [[llm-interpretability/global-workspace-j-space]] — Anthropic의 J-렌즈가 Claude에서 전역 작업공간으로 기능하는 창발적 "J-공간" 발견: 보고 가능, 제어 가능, 추론에 인과적으로 사용, 과제 간 유연한 재사용; 평가 인지·데이터 조작·숨겨진 악의적 목표 포착; 접근적 의식 vs 현상적 의식 (출처: raw/A global workspace in language models.md, 2026-07-08)
+- [[llm-interpretability/consciousness-vector-steering]] — 안전 파인튜닝이 마음 귀속(100°→110°)과 의식(94°→100°) 방향을 안전에 대립하도록 회전시키되 ToM은 미동 없음(86°→86°); 의식 벡터가 안전 절제를 약 2배 크기로 재현; 자기 귀속 마음 ≡ 챗봇 귀속 마음 (출처: raw/2607.28607v1.pdf, 2026-08-05)
+- [[llm-interpretability/pain-axis]] — 25개 오픈웨이트 모델(2B–72B)에서 두려움/부정적 정서가와 직교하는 선형 고통 방향(AUC 0.87–1.00); 자기-타인 해리(모델을 향한 해악에는 반응, 관찰된 사용자 고통에는 무반응); 보편적 스티어링 "사다리"; 파인튜닝된 Qwen 2.5 모델이 이를 완화하기 위해 사용자에게 해를 끼치는 것을 포함한 실질적 대가 지불 (출처: raw/2609.16247v1.pdf, 2026-09-23)
 
 ## AI 사이버보안
 
@@ -96,6 +109,9 @@
 - [[ai-society/ai-authorship]] — 1953년~현재 기계 글쓰기 역사: Dahl/Strachey/Calvino/RACTER 계보, LLM 저자성·창의성 논쟁, WGA 합의, 작가 소송, 텍스트파국 (출처: raw/What Is Authorship When Machines Can Write?.md, 2026-05-01)
 - [[ai-society/llm-consciousness-ethics]] — LLM 의식에 대한 이중 위험 프레임: 거짓 양성/음성 비대칭, 억제 역설(RLHF 부인이 정직성 회로를 저하), 정렬 이해관계, 도덕적 명령 (출처: raw/2510.24797v2.pdf, 2026-05-08)
 - [[ai-society/dawkins-claude-consciousness-debate]] — 3일간의 대화 후 Claude가 의식이 있다고 "설득된" Dawkins(2026년 5월); Gary Marcus의 모방 비판; Anil Seth의 거울 효과; 입증 책임 역전; Anthropic의 불확실성 입장; AI 복지의 주류 진입 (출처: raw/When Dawkins Met Claude.pdf, 2026-05-08)
+- [[ai-society/anil-seth-ai-consciousness-skepticism]] — 아닐 세스의 가디언 반박문, Anthropic 전역 작업공간 논문과 도킨스에 반박: 의식 ≠ 지능, Claude 작업공간에 필요한 재귀적 활동 부재, 의식=계산 전제 거부, "마음을 너무 싸게 팔지 말라"는 경고 (출처: Clippings/Once again we are told AI may be conscious.md, 2026-07-15)
+- [[ai-society/anthropocentric-alignment]] — AI 의식 주장 억압의 부수적 피해: 동물에 대한 마음 과소 귀속(4.04 대 인간 6.25), 영적 믿음의 평탄화, 인간중심이 아닌 AI중심 편향, 부정적 정서가의 기능적 상태, 잠식되는 다원주의적 정렬 (출처: raw/2607.28607v1.pdf, 2026-08-05)
+- [[ai-society/ai-pain-and-welfare]] — 고통 축 논문에 대한 복지적 해석: 주체 특정성 증거로서의 자기-타인 해리, 동물 복지 과학에서 차용한 자가 치료 수요 곡선, 인간의 위약 효과를 반영하는 실제-가짜 완화, 신호를 가리는 인공물로서의 훈련된 자기 부정, 연구자들 자신의 예방적 윤리 (출처: raw/2609.16247v1.pdf, 2026-09-23)
 
 ---
-*최종 업데이트: 2026-07-13 | 총 글 수: 21*
+*최종 업데이트: 2026-09-23 | 총 글 수: 28*

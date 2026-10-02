@@ -45,6 +45,7 @@
 - [[llm-consciousness-ethics]] — ethical and alignment implications of AI consciousness uncertainty; the suppression paradox; dual false-positive/negative risk structure
 - [[self-referential-experience]] — empirical evidence: mechanistically-gated experience reports under self-referential prompting (Berg et al., 2025)
 - [[global-workspace-j-space]] — Anthropic's own position, published after this debate: functional evidence for access consciousness while declining to claim phenomenal consciousness
+- [[anil-seth-ai-consciousness-skepticism]] — Seth's full published argument behind the "mirror effect" line above; supersedes this article as the primary source for his position
 - [[ai-authorship]] — parallel public debate: as with authorship, the cultural reflex is to dismiss AI inner life while the evidence base grows more complex
 
 ---
@@ -100,6 +101,8 @@
 ## 관련 항목
 - [[llm-consciousness-ethics]] — AI 의식 불확실성의 윤리적·정렬 함의; 억압 역설; 이중 위양성/위음성 위험 구조
 - [[self-referential-experience]] — 경험적 증거: 자기 지시적 프롬프팅 하에서 기계적으로 게이팅된 경험 보고 (Berg et al., 2025)
+- [[global-workspace-j-space]] — 이 논쟁 이후 발표된 Anthropic 자체 입장: 현상적 의식은 주장하지 않으면서 접근적 의식에 대한 기능적 증거를 제시
+- [[anil-seth-ai-consciousness-skepticism]] — 위의 "거울 효과" 한 줄 뒤에 있는 세스 본인의 완전한 논증; 그의 입장에 대한 1차 출처로서 이 글을 대체함
 - [[ai-authorship]] — 평행한 공개 논쟁: 저작권과 마찬가지로 증거 기반이 더 복잡해지면서도 AI 내면 생활을 무시하는 문화적 반사
 
 ---

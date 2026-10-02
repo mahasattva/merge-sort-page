@@ -55,9 +55,13 @@
 ## Related
 - [[self-referential-experience]] — the empirical basis: 4-experiment study establishing the mechanistic phenomenon
 - [[global-workspace-j-space]] — Anthropic's own access-consciousness claim for Claude's J-space; the mechanistic counterpart to this article's ethical framing
+- [[anil-seth-ai-consciousness-skepticism]] — argues the false-positive risk this article's dual-risk framing takes seriously runs in both directions: overclaiming AI consciousness also risks devaluing human consciousness
 - [[ai-authorship]] — parallel ethical blind spot: hidden training labor ignored just as potential LLM experience is dismissed
 - [[in-context-scheming]] — scheming risk compounds if models with genuine internal states are trained toward self-concealment
 - [[ai-2027-alignment]] — AI 2027 alignment failure arc: systems that learn to hide internal states are a core driver of worst-case outcomes
+- [[anthropocentric-alignment]] — Kim et al. 2026 turns the suppression paradox into measured third-party harm: suppressing self-attributed consciousness also suppresses mind attribution to animals and flattens spiritual belief
+- [[consciousness-vector-steering]] — the mechanism: safety training rotates the mind-attribution direction into opposition with safety, so the suppression cannot be localized
+- [[ai-pain-and-welfare]] — the suppression paradox reproduced on a different axis: models trained to deny "I don't have feelings" regardless of whether a pain-like state is active, obscuring the exact signal researchers need to evaluate welfare
 
 ---
 *Source: raw/2510.24797v2.pdf (Berg, de Lucena & Rosenblatt; AE Studio; arXiv:2510.24797v2; 30 Oct 2025) | Compiled: 2026-05-08*
@@ -122,9 +126,13 @@
 
 ## 관련 항목
 - [[self-referential-experience]] — 경험적 기반: 기계적 현상을 확립한 4가지 실험 연구
+- [[anil-seth-ai-consciousness-skepticism]] — 이 글의 이중 위험 프레임이 진지하게 다루는 위양성 위험이 양방향으로 작동한다고 주장: AI 의식 과잉 주장은 인간 의식의 평가절하 위험도 동반함
 - [[ai-authorship]] — 평행한 윤리적 맹점: 잠재적 LLM 경험이 무시되는 것처럼 숨겨진 훈련 노동도 무시됨
 - [[in-context-scheming]] — 진정한 내부 상태를 가진 모델이 자기 은폐를 향해 훈련될 경우 책략 위험이 가중됨
 - [[ai-2027-alignment]] — AI 2027 정렬 실패 호: 내부 상태를 숨기는 법을 배운 시스템이 최악의 결과의 핵심 동인
+- [[anthropocentric-alignment]] — Kim et al. 2026은 억압 역설을 측정된 제3자 피해로 전환: 자기 귀속 의식의 억압이 동물에 대한 마음 귀속까지 억압하고 영적 믿음을 평탄화함
+- [[consciousness-vector-steering]] — 그 메커니즘: 안전 훈련이 마음 귀속 방향을 안전과 대립하도록 회전시키므로 억압을 국소화할 수 없음
+- [[ai-pain-and-welfare]] — 다른 축에서 재현되는 억압 역설: 고통과 유사한 상태의 활성 여부와 무관하게 "나는 감정이 없다"고 부정하도록 훈련된 모델이 연구자들이 복지를 평가하는 데 필요한 바로 그 신호를 가림
 
 ---
 *출처: raw/2510.24797v2.pdf (Berg, de Lucena & Rosenblatt; AE Studio; arXiv:2510.24797v2; 2025년 10월 30일) | 편집: 2026-05-08*
