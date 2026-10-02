@@ -9,7 +9,9 @@
 - Supporting files (templates, examples, scripts) live alongside SKILL.md
 - Keep SKILL.md under 500 lines — move detailed reference to supporting files
 
-## Minimal Skill Structure
+## Detail
+
+### Minimal Skill Structure
 
 ```
 ~/.claude/skills/my-skill/
@@ -21,7 +23,7 @@
     └── helper.sh
 ```
 
-## SKILL.md Template
+### SKILL.md Template
 
 ```markdown
 ---
@@ -38,7 +40,7 @@ Your skill instructions here.
 Use $ARGUMENTS to reference what the user passed.
 ```
 
-## All Frontmatter Fields
+### All Frontmatter Fields
 
 | Field | Type | Default | Purpose |
 |-------|------|---------|---------|
@@ -56,7 +58,7 @@ Use $ARGUMENTS to reference what the user passed.
 | `shell` | string | bash | `bash` or `powershell` |
 | `hooks` | object | — | Event handlers scoped to this skill |
 
-## String Substitutions
+### String Substitutions
 
 | Variable | Description |
 |----------|-------------|
@@ -68,7 +70,7 @@ Use $ARGUMENTS to reference what the user passed.
 
 If `$ARGUMENTS` is not in the skill body, Claude appends `ARGUMENTS: <input>` automatically.
 
-## Dynamic Context Injection
+### Dynamic Context Injection
 
 Run shell commands inline — output replaces the placeholder before Claude sees the skill:
 
@@ -90,7 +92,7 @@ git log --oneline -5
 ```
 ````
 
-## Invocation Control Matrix
+### Invocation Control Matrix
 
 | Frontmatter | User can invoke | Claude can auto-invoke | Use for |
 |---|---|---|---|
@@ -98,7 +100,7 @@ git log --oneline -5
 | `disable-model-invocation: true` | Yes | No | `/deploy`, `/pentest`, anything with side effects |
 | `user-invocable: false` | No | Yes | Background context (legacy systems, domain knowledge) |
 
-## Subagent Fork Pattern
+### Subagent Fork Pattern
 
 ```yaml
 ---
@@ -117,7 +119,7 @@ Research $ARGUMENTS:
 - Result summarized and returned to main session
 - Use for large investigations that would bloat main context
 
-## Tool Restriction Examples
+### Tool Restriction Examples
 
 ```yaml
 # Read-only skill
@@ -130,7 +132,7 @@ allowed-tools: Bash(git *) Bash(npm test)
 allowed-tools: mcp__github__get_pull_request mcp__github__search
 ```
 
-## Description Writing Tips
+### Description Writing Tips
 
 - Front-load key use cases — first 250 chars show in listings
 - Include natural language keywords users would say ("optimize", "slow code", "performance")
@@ -169,7 +171,9 @@ allowed-tools: mcp__github__get_pull_request mcp__github__search
 - 지원 파일(템플릿, 예시, 스크립트)은 SKILL.md 옆에 위치
 - SKILL.md는 500줄 이하로 유지 — 상세 레퍼런스는 지원 파일로 이동
 
-## 최소 스킬 구조
+## 세부 내용
+
+### 최소 스킬 구조
 
 ```
 ~/.claude/skills/my-skill/
@@ -181,7 +185,7 @@ allowed-tools: mcp__github__get_pull_request mcp__github__search
     └── helper.sh
 ```
 
-## SKILL.md 템플릿
+### SKILL.md 템플릿
 
 ```markdown
 ---
@@ -198,7 +202,7 @@ allowed-tools: Read Grep Glob
 $ARGUMENTS를 사용하여 사용자가 전달한 내용을 참조.
 ```
 
-## 모든 프론트매터 필드
+### 모든 프론트매터 필드
 
 | 필드 | 유형 | 기본값 | 목적 |
 |-------|------|---------|---------|
@@ -216,7 +220,7 @@ $ARGUMENTS를 사용하여 사용자가 전달한 내용을 참조.
 | `shell` | 문자열 | bash | `bash` 또는 `powershell` |
 | `hooks` | 객체 | — | 이 스킬로 범위가 제한된 이벤트 핸들러 |
 
-## 문자열 치환
+### 문자열 치환
 
 | 변수 | 설명 |
 |----------|-------------|
@@ -228,7 +232,7 @@ $ARGUMENTS를 사용하여 사용자가 전달한 내용을 참조.
 
 스킬 본문에 `$ARGUMENTS`가 없으면 Claude가 자동으로 `ARGUMENTS: <input>`을 추가.
 
-## 동적 컨텍스트 주입
+### 동적 컨텍스트 주입
 
 셸 명령을 인라인으로 실행 — Claude가 스킬을 보기 전에 출력이 자리 표시자를 대체:
 
@@ -241,7 +245,7 @@ $ARGUMENTS를 사용하여 사용자가 전달한 내용을 참조.
 위 내용을 검토하고...
 ```
 
-## 호출 제어 매트릭스
+### 호출 제어 매트릭스
 
 | 프론트매터 | 사용자 호출 가능 | Claude 자동 호출 가능 | 용도 |
 |---|---|---|---|
@@ -249,7 +253,7 @@ $ARGUMENTS를 사용하여 사용자가 전달한 내용을 참조.
 | `disable-model-invocation: true` | 예 | 아니요 | `/deploy`, `/pentest`, 부작용이 있는 모든 것 |
 | `user-invocable: false` | 아니요 | 예 | 백그라운드 컨텍스트 (레거시 시스템, 도메인 지식) |
 
-## 서브에이전트 포크 패턴
+### 서브에이전트 포크 패턴
 
 ```yaml
 ---

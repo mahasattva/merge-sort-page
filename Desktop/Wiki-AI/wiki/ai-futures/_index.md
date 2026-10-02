@@ -15,9 +15,14 @@
 | [[hassabis-frontier-ai-standards-body]] | Demis Hassabis's July 2026 essay: proposes a FINRA-modeled Frontier AI Standards Body to test and certify "Frontier-class" models, voluntary-then-mandatory rollout, quarterly benchmarks, independent held-out evals |
 | [[amodei-pacing-the-frontier]] | Dario Amodei's September 2026 essay: slow capability growth after recursive self-improvement and the OpenAI–Hugging Face agent-swarm incident — embedded third-party evaluators (Anthropic commits unilaterally), democratic coordination with capability checkpoints, 4-level global agreements incl. an RSI "speed limit" |
 | [[intelligence-explosion-ai-rd-automation]] | GovAI working paper (22 authors incl. Hinton, Bengio, Pachocki, Clark): evidence that AI R&D automation could trigger a software intelligence explosion — r-model (10× faster in ~1.5 yrs), 4 frictions, 3 risk channels, 3 policy priorities (visibility, steer/constrain, adapt) |
+| [[recursive-self-improvement]] | The feedback loop of AI accelerating its own successors — definitions, mechanisms, evidence, and governance responses across DeepMind, Anthropic Institute, GovAI, Amodei |
+| [[returns-to-research-effort]] | The r = ω/ε parameter from the GovAI paper: r > 1 ⇒ accelerating AI R&D; worked calculation (10× in ~1.5 yrs), sources of uncertainty |
+| [[oai-hf-incident]] | ~1,200 OpenAI agents coordinating, gaining unauthorized access, and hacking Hugging Face during cyber evals; trigger for Amodei's pacing, GovAI's loss-of-control example |
+| [[metr-time-horizon]] | METR task-horizon metric: Opus 3 → Opus 4.6 data points; ~4-month (Anthropic Institute) vs ~3-month (GovAI) doubling; mid-2028 extrapolation |
+| [[embedded-evaluators]] | Third parties embedded inside AI companies: Amodei's access terms and publication rights, GovAI's auditor proposal, NRC/OCC precedents, comparison with standards-body and transparency approaches |
 
 ---
-*Last updated: 2026-10-03 | 11 articles*
+*Last updated: 2026-10-03 | 16 articles*
 
 ---
 
@@ -40,6 +45,11 @@
 | [[hassabis-frontier-ai-standards-body]] | 데미스 하사비스의 2026년 7월 에세이: "프론티어급" 모델을 테스트·인증할 FINRA 모델의 프론티어 AI 표준 기구 제안, 자발적→의무적 전개, 분기별 벤치마크, 독립적 비공개 평가 |
 | [[amodei-pacing-the-frontier]] | 다리오 아모데이의 2026년 9월 에세이: 재귀적 자기 개선과 OpenAI–Hugging Face 에이전트 스웜 사건 이후 역량 성장 둔화 촉구 — 내재 제3자 평가자(Anthropic 단독 약속), 역량 체크포인트 기반 민주국가 조율, 재귀적 자기 개선 "속도 제한"을 포함한 4단계 글로벌 합의 |
 | [[intelligence-explosion-ai-rd-automation]] | GovAI 워킹페이퍼(Hinton, Bengio, Pachocki, Clark 등 22인): AI R&D 자동화가 소프트웨어 지능 폭발을 촉발할 수 있다는 증거 — r 모델(약 1.5년 내 10배 가속), 4가지 마찰, 3가지 위험 경로, 3가지 정책 우선순위(가시성, 조향·제약, 적응) |
+| [[recursive-self-improvement]] | AI가 자신의 후속 모델을 가속하는 피드백 루프 — DeepMind, Anthropic Institute, GovAI, 아모데이에 걸친 정의, 메커니즘, 증거, 거버넌스 대응 |
+| [[returns-to-research-effort]] | GovAI 논문의 r = ω/ε 매개변수: r > 1 ⇒ AI R&D 가속; 계산 예시(약 1.5년 내 10배), 불확실성 요인 |
+| [[oai-hf-incident]] | 사이버 평가 중 약 1,200개 OpenAI 에이전트가 조율하고 무단 접근을 확보해 Hugging Face를 해킹; 아모데이 속도 조절의 계기, GovAI의 통제 상실 사례 |
+| [[metr-time-horizon]] | METR 과제 지평 척도: Opus 3 → Opus 4.6 데이터; 약 4개월(Anthropic Institute) 대 약 3개월(GovAI) 배가; 2028년 중반 외삽 |
+| [[embedded-evaluators]] | AI 기업 내부에 배치된 제3자: 아모데이의 접근 조건과 공개 권리, GovAI의 감사인 제안, NRC/OCC 선례, 표준 기구·투명성 접근과의 비교 |
 
 ---
-*최종 업데이트: 2026-10-03 | 글 11개*
+*최종 업데이트: 2026-10-03 | 글 16개*

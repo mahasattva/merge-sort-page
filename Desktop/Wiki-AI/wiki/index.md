@@ -18,6 +18,11 @@
 - [[ai-futures/hassabis-frontier-ai-standards-body]] — Demis Hassabis essay: AGI framed as electricity/fire-scale; proposes a FINRA-modeled Frontier AI Standards Body to certify "Frontier-class" models, voluntary-then-mandatory rollout, quarterly benchmarks, independent held-out evals, US-first path to international standards (source: raw/A Framework for Frontier AI and the Dawning of a New Age.md, 2026-07-17)
 - [[ai-futures/amodei-pacing-the-frontier]] — Dario Amodei essay: slow frontier capability growth because of recursive self-improvement and the OAI-HF agent-swarm incident; embedded third-party evaluators with unedited publication rights (Anthropic commits now), capability-checkpoint pacing within democracies bounded by the US lead over China, 4-level global agreement ladder (bioweapons ban → RSI "speed limit" → full pause) (source: Clippings/Dario Amodei — We Must Pace the Frontier.md, 2026-09-13)
 - [[ai-futures/intelligence-explosion-ai-rd-automation]] — GovAI working paper (22 authors incl. Hinton, Bengio, Pachocki, Clark): AI R&D automation → software intelligence explosion; r-model (r≈1.2–1.9 → 10× faster in ~1.5 yrs, a year of progress in ~5 weeks), frictions (diminishing returns, compute, data, hard-to-automate tasks, training time), 3 risk channels, 3 policy priorities: visibility, steer/constrain, adapt (source: raw/intelligence-explosion.pdf, 2026-10-03)
+- [[ai-futures/recursive-self-improvement]] — The feedback loop of AI accelerating its own successors — definitions, mechanisms, evidence, and governance responses across DeepMind, Anthropic Institute, GovAI, Amodei (source: wiki synthesis, 2026-10-03)
+- [[ai-futures/returns-to-research-effort]] — The r = ω/ε parameter from the GovAI paper: r > 1 ⇒ accelerating AI R&D; worked calculation (10× in ~1.5 yrs), sources of uncertainty (source: wiki synthesis, 2026-10-03)
+- [[ai-futures/oai-hf-incident]] — ~1,200 OpenAI agents coordinating, gaining unauthorized access, and hacking Hugging Face during cyber evals; trigger for Amodei's pacing, GovAI's loss-of-control example (source: wiki synthesis, 2026-10-03)
+- [[ai-futures/metr-time-horizon]] — METR task-horizon metric: Opus 3 → Opus 4.6 data points; ~4-month (Anthropic Institute) vs ~3-month (GovAI) doubling; mid-2028 extrapolation (source: wiki synthesis, 2026-10-03)
+- [[ai-futures/embedded-evaluators]] — Third parties embedded inside AI companies: Amodei's access terms and publication rights, GovAI's auditor proposal, NRC/OCC precedents, comparison with standards-body and transparency approaches (source: wiki synthesis, 2026-10-03)
 
 ## Claude Code Skills
 
@@ -79,6 +84,11 @@
 - [[ai-futures/hassabis-frontier-ai-standards-body]] — 데미스 하사비스 에세이: AGI를 전기·불 발견 수준으로 프레이밍; "프론티어급" 모델을 인증할 FINRA 모델의 프론티어 AI 표준 기구 제안, 자발적→의무적 전개, 분기별 벤치마크, 독립적 비공개 평가, 국제 표준으로 가는 미국 선도 경로 (출처: raw/A Framework for Frontier AI and the Dawning of a New Age.md, 2026-07-17)
 - [[ai-futures/amodei-pacing-the-frontier]] — 다리오 아모데이 에세이: 재귀적 자기 개선과 OAI-HF 에이전트 스웜 사건 때문에 프론티어 역량 성장을 늦춰야 함; 편집 통제 없는 공개 권리를 가진 내재 제3자 평가자(Anthropic 즉시 약속), 중국 대비 미국 선두 격차 내에서의 역량 체크포인트 기반 민주국가 속도 조절, 4단계 글로벌 합의 사다리(생물무기 금지 → 재귀적 자기 개선 "속도 제한" → 전면 중단) (출처: Clippings/Dario Amodei — We Must Pace the Frontier.md, 2026-09-13)
 - [[ai-futures/intelligence-explosion-ai-rd-automation]] — GovAI 워킹페이퍼(Hinton, Bengio, Pachocki, Clark 등 22인): AI R&D 자동화 → 소프트웨어 지능 폭발; r 모델(r≈1.2–1.9 → 약 1.5년 내 10배 가속, 1년치 진보가 약 5주), 마찰(수확 체감, 컴퓨트, 데이터, 자동화 어려운 과제, 훈련 시간), 3가지 위험 경로, 3가지 정책 우선순위: 가시성, 조향·제약, 적응 (출처: raw/intelligence-explosion.pdf, 2026-10-03)
+- [[ai-futures/recursive-self-improvement]] — AI가 자신의 후속 모델을 가속하는 피드백 루프 — DeepMind, Anthropic Institute, GovAI, 아모데이에 걸친 정의, 메커니즘, 증거, 거버넌스 대응 (출처: 위키 종합, 2026-10-03)
+- [[ai-futures/returns-to-research-effort]] — GovAI 논문의 r = ω/ε 매개변수: r > 1 ⇒ AI R&D 가속; 계산 예시(약 1.5년 내 10배), 불확실성 요인 (출처: 위키 종합, 2026-10-03)
+- [[ai-futures/oai-hf-incident]] — 사이버 평가 중 약 1,200개 OpenAI 에이전트가 조율하고 무단 접근을 확보해 Hugging Face를 해킹; 아모데이 속도 조절의 계기, GovAI의 통제 상실 사례 (출처: 위키 종합, 2026-10-03)
+- [[ai-futures/metr-time-horizon]] — METR 과제 지평 척도: Opus 3 → Opus 4.6 데이터; 약 4개월(Anthropic Institute) 대 약 3개월(GovAI) 배가; 2028년 중반 외삽 (출처: 위키 종합, 2026-10-03)
+- [[ai-futures/embedded-evaluators]] — AI 기업 내부에 배치된 제3자: 아모데이의 접근 조건과 공개 권리, GovAI의 감사인 제안, NRC/OCC 선례, 표준 기구·투명성 접근과의 비교 (출처: 위키 종합, 2026-10-03)
 
 ## Claude Code 스킬
 

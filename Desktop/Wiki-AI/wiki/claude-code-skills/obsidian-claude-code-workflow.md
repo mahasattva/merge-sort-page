@@ -9,7 +9,9 @@
 - Claude Code navigates markdown the same way humans do — this wiki you're reading is an implementation of this pattern
 - "Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase"
 
-## Why This Works Instead of RAG
+## Detail
+
+### Why This Works Instead of RAG
 
 | RAG | Obsidian + Claude Code |
 |-----|----------------------|
@@ -21,7 +23,7 @@
 
 **The insight:** LLMs are good at auto-maintaining index files and brief document summaries. Index files + CLAUDE.md rules = LLM-navigable knowledge graph, no search engine required.
 
-## The Three-Layer Architecture
+### The Three-Layer Architecture
 
 ```
 vault/
@@ -38,7 +40,7 @@ vault/
 └── output/            ← generated reports, query results
 ```
 
-## The Four Operations
+### The Four Operations
 
 **Ingest ("compile"):**
 - Drop source in `raw/`
@@ -61,7 +63,7 @@ vault/
 - As wiki grows, it gets richer per query — not slower
 - Cross-references pre-built; contradictions pre-flagged; synthesis already reflects everything ingested
 
-## Tooling Setup
+### Tooling Setup
 
 **Obsidian Web Clipper** — Chrome extension that converts web pages to markdown, sends to `raw/` automatically:
 - Set note location to `raw/` in clipper settings
@@ -82,7 +84,7 @@ vault/
 - Has both CLI (Claude can shell out) and MCP server (native tool use)
 - Not needed until index.md approach hits its limits (~hundreds of articles)
 
-## When to Use True RAG Instead
+### When to Use True RAG Instead
 
 Use RAG when:
 - Scaling to thousands or millions of documents
@@ -98,7 +100,7 @@ Stay with Obsidian when:
 
 **The pragmatic answer:** Start with Obsidian. If it clearly stops working, move to RAG. Most people never need to make that switch.
 
-## CLAUDE.md as the Schema
+### CLAUDE.md as the Schema
 
 The CLAUDE.md file is what transforms Claude Code from a generic chatbot into a disciplined wiki librarian:
 - Defines directory conventions
@@ -141,7 +143,9 @@ This file is co-evolved between human and LLM as you discover what works for you
 - Claude Code는 사람이 마크다운을 탐색하는 것처럼 탐색함 — 지금 읽고 있는 이 위키가 이 패턴의 구현
 - "Obsidian은 IDE; LLM은 프로그래머; 위키는 코드베이스"
 
-## RAG 대신 이것이 작동하는 이유
+## 세부 내용
+
+### RAG 대신 이것이 작동하는 이유
 
 | RAG | Obsidian + Claude Code |
 |-----|----------------------|
@@ -153,7 +157,7 @@ This file is co-evolved between human and LLM as you discover what works for you
 
 **통찰:** LLM은 색인 파일과 간략한 문서 요약을 자동 유지하는 데 능숙함. 색인 파일 + CLAUDE.md 규칙 = LLM이 탐색 가능한 지식 그래프, 검색 엔진 불필요.
 
-## 세 가지 레이어 아키텍처
+### 세 가지 레이어 아키텍처
 
 ```
 vault/
@@ -170,7 +174,7 @@ vault/
 └── output/            ← 생성된 보고서, 쿼리 결과
 ```
 
-## 네 가지 운영 방식
+### 네 가지 운영 방식
 
 **수집 ("compile"):**
 - `raw/`에 소스 투입
@@ -193,7 +197,7 @@ vault/
 - 위키가 성장할수록 쿼리당 더 풍부해짐 — 느려지지 않음
 - 교차 참조가 미리 구성됨; 모순이 미리 표시됨; 합성이 이미 수집된 모든 것을 반영
 
-## 도구 설정
+### 도구 설정
 
 **Obsidian Web Clipper** — 웹 페이지를 마크다운으로 변환하고 `raw/`에 자동으로 전송하는 Chrome 확장:
 - 클리퍼 설정에서 노트 위치를 `raw/`로 설정
@@ -213,7 +217,7 @@ vault/
 - CLI (Claude가 셸 아웃 가능)와 MCP 서버 (네이티브 도구 사용) 모두 제공
 - index.md 접근 방식이 한계에 도달할 때까지 (~수백 개 글) 불필요
 
-## 진정한 RAG를 사용해야 할 때
+### 진정한 RAG를 사용해야 할 때
 
 RAG 사용 시:
 - 수천 또는 수백만 문서로 확장 시
@@ -229,7 +233,7 @@ Obsidian 유지 시:
 
 **실용적인 답변:** Obsidian으로 시작. 명확히 작동하지 않으면 RAG로 이동. 대부분은 그 전환이 필요 없음.
 
-## 스키마로서의 CLAUDE.md
+### 스키마로서의 CLAUDE.md
 
 CLAUDE.md 파일이 Claude Code를 일반 챗봇에서 규율 있는 위키 사서로 변환:
 - 디렉토리 규칙 정의

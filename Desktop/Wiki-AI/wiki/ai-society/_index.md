@@ -12,7 +12,7 @@
 | [[ai-pain-and-welfare]] | Self-other dissociation on a pain axis; fine-tuned Qwen models pay real costs (incl. harming the user) to relieve an injected pain vector; real-vs-sham relief mirrors the human placebo effect; trained self-denial as a welfare-signal-obscuring artifact (Tagliabue, Dung & Berg, 2026) |
 
 ---
-*6 articles | Last updated: 2026-09-23*
+*Last updated: 2026-10-03 | 6 articles*
 
 ---
 
@@ -32,4 +32,4 @@
 | [[ai-pain-and-welfare]] | 고통 축에서의 자기-타인 해리; 파인튜닝된 Qwen 모델이 주입된 고통 벡터를 완화하기 위해 사용자에게 해를 끼치는 것을 포함한 실질적 대가를 지불; 실제-가짜 완화가 인간의 위약 효과를 반영; 복지 신호를 가리는 인공물로서의 훈련된 자기 부정 (Tagliabue, Dung & Berg, 2026) |
 
 ---
-*글 6개 | 최종 업데이트: 2026-09-23*
+*최종 업데이트: 2026-10-03 | 글 6개*

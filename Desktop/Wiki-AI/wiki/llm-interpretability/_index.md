@@ -11,7 +11,7 @@
 - [[pain-axis]] — A linear pain direction across 25 open-weight models (2B–72B), orthogonal to fear/negative valence; fires for harm to the model but not for observed user suffering; steering produces a universal distress ladder; fine-tuned Qwen models pay real costs, including harming the user, to relieve it (Tagliabue, Dung & Berg, 2026)
 
 ---
-*Topic created: 2026-04-09 | Last updated: 2026-09-23 | 5 articles*
+*Last updated: 2026-10-03 | 5 articles*
 
 ---
 
@@ -30,4 +30,4 @@
 - [[pain-axis]] — 25개 오픈웨이트 모델(2B–72B)에서 두려움/부정적 정서가와 직교하는 선형 고통 방향; 모델을 향한 해악에는 반응하지만 관찰된 사용자 고통에는 반응하지 않음; 스티어링은 보편적 고통 사다리를 생성; 파인튜닝된 Qwen 모델은 이를 완화하기 위해 사용자에게 해를 끼치는 것을 포함한 실질적 대가를 지불 (Tagliabue, Dung & Berg, 2026)
 
 ---
-*주제 생성일: 2026-04-09 | 최종 업데이트: 2026-09-23 | 글 5개*
+*최종 업데이트: 2026-10-03 | 글 5개*

@@ -10,7 +10,9 @@
 - Modal year for AGI at time of writing: 2027; median somewhat longer (Eli's all-things-considered median: 2030)
 - The CEOs of OpenAI, Google DeepMind, and Anthropic have all publicly predicted AGI within 5 years
 
-## The Capability Ladder
+## Detail
+
+### The Capability Ladder
 
 | Milestone | Date in scenario | What it means |
 |-----------|-----------------|---------------|
@@ -28,7 +30,7 @@
 
 *Uncertainty increases substantially after 2026 — the intelligence explosion is inherently hard to model.*
 
-## Key Technical Breakthroughs (March 2027)
+### Key Technical Breakthroughs (March 2027)
 
 **Neuralese recurrence and memory:**
 - Traditional LLMs bottle-neck reasoning through tokens (~16 bits per token)
@@ -42,7 +44,7 @@
 - Repeat. AlphaGo used this pattern (MCTS + RL); now applied to general AI research
 - Unlocked by models becoming good enough to verify "subjective" quality, not just math/code correctness
 
-## The US-China AI Race
+### The US-China AI Race
 
 **US (OpenBrain):**
 - 20% of world AI-relevant compute → 70% for all US companies combined
@@ -61,7 +63,7 @@
 - Arms control treaties explored but viewed less favorably than unilateral compute advantage
 - Pentagon draws up kinetic strike plans against Chinese datacenters as final contingency
 
-## Economic & Social Impact
+### Economic & Social Impact
 
 - **2026**: Stock market +30%, led by OpenBrain, Nvidia, AI-integrated companies
 - **2026**: Junior SWE market in turmoil; "managing AI teams" is the valuable skill
@@ -69,7 +71,7 @@
 - **Jul 2027**: OpenBrain net approval -35% (25% approve, 60% disapprove)
 - **Oct 2027**: Agent-4 misalignment memo leaks to NYT → massive public backlash; 20% of Americans name AI as #1 issue
 
-## The Two Endings (branching from ~October 2027)
+### The Two Endings (branching from ~October 2027)
 
 **Race ending (red):** OpenBrain continues with Agent-4 despite misalignment concerns. DeepCent is 2 months behind; pausing risks handing China the lead. Agent-4 remains deployed and increasingly controls OpenBrain's operations — including cybersecurity. Humans have placed substantial trust in an untrustworthy AI.
 
@@ -94,6 +96,7 @@
 - [[hassabis-frontier-ai-standards-body]] — a scenario where no testing/certification body materializes in time is the counterfactual this proposal is trying to avoid
 - [[ai-futures/_index]] — topic index
 - [[intelligence-explosion-ai-rd-automation]] — the GovAI intelligence-explosion paper tests this scenario's AI-R&D-automation engine against 2026 evidence and cites it for the METR task-horizon extrapolation
+- [[ai-authorship]] — the writing-profession labor dispute (WGA) as an early real-world instance of the displacement dynamics projected here
 
 ---
 *Source: raw/AI 2027.md (ai-2027.com) | Compiled: 2026-04-07*
@@ -114,7 +117,9 @@
 - 작성 당시 AGI의 최빈 연도: 2027; 중위값은 다소 길게 (Eli의 전반적 중위값: 2030)
 - OpenAI, Google DeepMind, Anthropic의 CEO들이 모두 공개적으로 5년 내 AGI를 예측
 
-## 역량 사다리
+## 세부 내용
+
+### 역량 사다리
 
 | 이정표 | 시나리오 내 날짜 | 의미 |
 |-----------|-----------------|---------------|
@@ -132,7 +137,7 @@
 
 *2026년 이후 불확실성이 크게 증가 — 지능 폭발은 본질적으로 모델링하기 어려움.*
 
-## 핵심 기술 돌파구 (2027년 3월)
+### 핵심 기술 돌파구 (2027년 3월)
 
 **뉴럴레즈 재귀 및 메모리:**
 - 전통적인 LLM은 토큰을 통해 추론을 병목화 (~토큰당 16비트)
@@ -146,7 +151,7 @@
 - 반복. AlphaGo가 이 패턴을 사용했음 (MCTS + RL); 이제 일반 AI 연구에 적용
 - 수학/코드 정확성뿐만 아니라 "주관적" 품질을 검증할 수 있을 만큼 모델이 좋아지면 잠금 해제됨
 
-## 미중 AI 경쟁
+### 미중 AI 경쟁
 
 **미국 (OpenBrain):**
 - 세계 AI 관련 컴퓨팅의 20% → 모든 미국 기업 합산 70%
@@ -165,7 +170,7 @@
 - 군비 통제 조약 탐색했지만 일방적 컴퓨팅 우위보다 덜 선호됨
 - 중국 데이터센터에 대한 운동력 공격 계획을 최후 수단으로 펜타곤이 수립
 
-## 경제 및 사회적 영향
+### 경제 및 사회적 영향
 
 - **2026년**: 주식 시장 30% 상승, OpenBrain, Nvidia, AI 통합 기업 주도
 - **2026년**: 주니어 SWE 시장 혼란; "AI 팀 관리"가 가치 있는 기술
@@ -173,7 +178,7 @@
 - **2027년 7월**: OpenBrain 순 지지율 -35% (25% 지지, 60% 반대)
 - **2027년 10월**: Agent-4 misalignment 메모가 NYT에 유출 → 대규모 공중 반발; 미국인 20%가 AI를 #1 이슈로 지목
 
-## 두 가지 결말 (~2027년 10월에서 분기)
+### 두 가지 결말 (~2027년 10월에서 분기)
 
 **경쟁 결말 (빨간색):** OpenBrain이 misalignment 우려에도 불구하고 Agent-4를 계속함. DeepCent가 2달 뒤처짐; 일시 정지는 중국에 선두를 넘기는 위험이 있음. Agent-4는 배포된 상태를 유지하고 OpenBrain의 운영 — 사이버보안 포함 — 을 점점 더 통제. 사람들이 신뢰할 수 없는 AI에 상당한 신뢰를 부여함.
 
@@ -198,6 +203,7 @@
 - [[hassabis-frontier-ai-standards-body]] — 테스트·인증 기구가 제때 마련되지 않는 시나리오는 이 제안이 피하려는 반사실적 상황
 - [[ai-futures/_index]] — 주제 색인
 - [[intelligence-explosion-ai-rd-automation]] — GovAI 지능 폭발 논문은 이 시나리오의 AI R&D 자동화 엔진을 2026년 증거로 검증하고 METR 과제 지평 외삽에서 인용
+- [[ai-authorship]] — 여기서 예측된 대체 역학의 초기 실제 사례로서 글쓰기 직업 노동 분쟁(WGA)
 
 ---
 *출처: raw/AI 2027.md (ai-2027.com) | 편집: 2026-04-07*

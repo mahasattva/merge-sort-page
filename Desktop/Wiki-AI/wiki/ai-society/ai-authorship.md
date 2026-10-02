@@ -51,6 +51,8 @@
 - [[ai-futures/ai-2027-scenario]] — capability trajectory underlying the authorship displacement concern
 - [[llm-interpretability/emotion-circuits]] — whether LLMs have inner states, directly relevant to creativity/authorship debates
 - [[meta/llm-wiki-pattern]] — this wiki is itself LLM-written; the authorship question is self-referential here
+- [[ai-2027-scenario]] — forward-looking labor counterpart: the scenario's junior-software-engineer market turmoil and "managing AI teams" shift parallel the writing-profession displacement tracked here
+- [[ai-2040-plan-a]] — its Citizen's Dividend and cap-and-trade revenue respond to the large-scale job displacement that the WGA dispute previews in one industry
 
 ---
 *Source: What Is Authorship When Machines Can Write?.md (MIT Press Reader, W. Patrick McCray, 2026-04-27) | Compiled: 2026-05-01*
@@ -112,6 +114,8 @@
 - [[ai-futures/ai-2027-scenario]] — 저작권 대체 우려의 근저에 있는 역량 궤적
 - [[llm-interpretability/emotion-circuits]] — LLM이 내부 상태를 갖는지; 창의성/저작권 논쟁에 직접 관련
 - [[meta/llm-wiki-pattern]] — 이 위키 자체가 LLM이 작성함; 저작권 질문은 여기서 자기 지시적
+- [[ai-2027-scenario]] — 미래 지향적 노동 대응물: 시나리오의 초급 소프트웨어 엔지니어 시장 혼란과 "AI 팀 관리"로의 전환이 여기서 다루는 글쓰기 직업 대체와 평행
+- [[ai-2040-plan-a]] — 시민 배당과 총량거래 수익은 WGA 분쟁이 한 산업에서 미리 보여주는 대규모 일자리 대체에 대한 대응
 
 ---
 *출처: What Is Authorship When Machines Can Write?.md (MIT Press Reader, W. Patrick McCray, 2026-04-27) | 편집: 2026-05-01*

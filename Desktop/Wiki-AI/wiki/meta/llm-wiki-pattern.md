@@ -10,24 +10,26 @@
 - **Tooling**: LLM agent + Obsidian side-by-side — "Obsidian is the IDE, the LLM is the programmer, the wiki is the codebase"
 - **Why wikis fail**: maintenance burden grows faster than value; LLMs don't get bored or forget to update a cross-reference
 
-## Three Layers
+## Detail
+
+### Three Layers
 
 - **raw/** — immutable source documents; LLM reads but never edits
 - **wiki/** — LLM-generated markdown; LLM owns entirely
 - **schema (CLAUDE.md)** — configuration file co-evolved by human + LLM; defines conventions and workflows
 
-## Three Operations
+### Three Operations
 
 - **Ingest**: drop source in raw/ → LLM reads, extracts, writes article, updates 10-15 wiki pages, logs entry
 - **Query**: ask question → LLM reads index + relevant pages → synthesizes answer with citations → valuable answers get filed back into wiki
 - **Lint**: periodic health-check → find contradictions, orphan pages, stale claims, missing cross-references
 
-## Navigation Infrastructure
+### Navigation Infrastructure
 
 - **index.md**: content catalog — every page, one-line summary, metadata; read first when searching
 - **log.md**: append-only chronological log — `## [YYYY-MM-DD] operation | title`; parseable with grep
 
-## Use Cases
+### Use Cases
 
 - Personal: goals, health, psychology, journal entries
 - Research: going deep on a topic over weeks/months
@@ -35,7 +37,7 @@
 - Team/business: fed by Slack, meeting transcripts, project docs
 - Competitive analysis, due diligence, trip planning, course notes
 
-## Tooling Options
+### Tooling Options
 
 - **Obsidian Web Clipper**: converts web articles to markdown for raw/
 - **Marp**: markdown slide decks (Obsidian plugin)
@@ -75,24 +77,26 @@
 - **도구**: LLM 에이전트 + Obsidian 나란히 — "Obsidian은 IDE, LLM은 프로그래머, 위키는 코드베이스"
 - **위키가 실패하는 이유**: 유지보수 부담이 가치보다 빠르게 커짐; LLM은 지루해하지 않고 교차 참조 업데이트를 잊지 않음
 
-## 세 가지 레이어
+## 세부 내용
+
+### 세 가지 레이어
 
 - **raw/** — 변경 불가능한 원본 문서; LLM은 읽기만 하고 수정하지 않음
 - **wiki/** — LLM이 생성한 마크다운; LLM이 전적으로 소유
 - **스키마 (CLAUDE.md)** — 사람 + LLM이 공동으로 발전시키는 설정 파일; 규칙과 워크플로우를 정의
 
-## 세 가지 운영 방식
+### 세 가지 운영 방식
 
 - **수집(Ingest)**: raw/에 소스 투입 → LLM이 읽고, 추출하고, 글을 쓰고, 10-15개 위키 페이지를 업데이트하고, 로그 항목 추가
 - **쿼리(Query)**: 질문 → LLM이 색인 + 관련 페이지를 읽음 → 인용과 함께 답변 합성 → 가치 있는 답변은 위키에 다시 등록
 - **점검(Lint)**: 주기적 상태 점검 → 모순, 고아 페이지, 오래된 주장, 누락된 교차 참조 찾기
 
-## 탐색 인프라
+### 탐색 인프라
 
 - **index.md**: 콘텐츠 카탈로그 — 모든 페이지, 한 줄 요약, 메타데이터; 검색 시 먼저 읽기
 - **log.md**: 추가 전용 시간순 로그 — `## [YYYY-MM-DD] 작업 | 제목`; grep으로 파싱 가능
 
-## 사용 사례
+### 사용 사례
 
 - 개인: 목표, 건강, 심리, 일기 항목
 - 연구: 몇 주/개월에 걸쳐 주제를 깊이 파고들기
@@ -100,7 +104,7 @@
 - 팀/기업: Slack, 회의록, 프로젝트 문서로 구동
 - 경쟁 분석, 실사, 여행 계획, 강의 노트
 
-## 도구 옵션
+### 도구 옵션
 
 - **Obsidian Web Clipper**: 웹 기사를 raw/용 마크다운으로 변환
 - **Marp**: 마크다운 슬라이드 덱 (Obsidian 플러그인)

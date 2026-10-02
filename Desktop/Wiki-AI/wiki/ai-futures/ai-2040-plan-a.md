@@ -11,7 +11,9 @@
 - Same starting premise as AI 2027: absent intervention, racing to superintelligence ends in either extinction or a tiny group (CEOs, a president) gaining permanent, unaccountable power
 - Structured as three parallel narrations of the same timeline: the main scenario, **The Public's Perspective** (a citizen's-eye view), and **The Insider's Perspective** (a frontier-lab researcher's view) — this article covers the main scenario and epilogue
 
-## Timeline at a Glance
+## Detail
+
+### Timeline at a Glance
 
 | Year | Milestone |
 |------|-----------|
@@ -34,7 +36,7 @@
 
 *Compare to [[ai-2027-scenario]]'s compressed ~2.5-year timeline from Superhuman Coder to ASI — Plan A's entire point is to stretch that same transition across 13 years.*
 
-## The Deal: Four Core Principles
+### The Deal: Four Core Principles
 
 Plan A is not a single policy but a package, agreed by a "Consortium" that starts as a US-China bilateral deal and goes multilateral by end of 2029:
 
@@ -43,14 +45,14 @@ Plan A is not a single policy but a package, agreed by a "Consortium" that start
 - **Diffuse AI Broadly** — dozens of companies across many countries at the frontier, rather than 1–3 racing in secret. A direct inversion of the pre-deal pattern where the riskiest domain (AI R&D) got the most capable models first while the public stayed in the dark.
 - **Reversibility** — steer capability gains toward *compute scaling* (buildable, seizable, destroyable) rather than *algorithmic paradigm shifts* (informational, can't be undone once discovered). Culminates in **Mutually Assured Compute Destruction**: by design, new frontier datacenters are built in third countries most vulnerable to the rival power (US datacenters in Mongolia, Chinese datacenters in Canada), so that if the deal collapses, each side can seize the other's compute or the owner will self-destruct it first — deliberately engineered mutual hostage-taking to make defection unattractive.
 
-## Verification Mechanics
+### Verification Mechanics
 
 - **Compute Declaration**: major datacenter owners and chip-supply-chain firms (fabs concentrated in Taiwan, South Korea, US, China) publicly declare purchases/sales; inspectors visit each other's infrastructure until each side is confident under ~1% of compute is unaccounted for
 - **Training Pause**: inference continues, but new training runs halt; verified via network taps and partial-recomputation servers retrofitted into datacenters — proposed as cheap (~0.1% of AI investment) if built in advance
 - **Worldwide buy-in**: non-superpower countries favor the deal because it slows the US/China lead and lets their own frontier projects catch up
 - Alternate branch considered: a China covert-AGI-project defection, concluded unlikely to let China overtake the Consortium even if attempted
 
-## Safety Cases and the Alignment Arc
+### Safety Cases and the Alignment Arc
 
 Two, later three, lines of defense structure every deployment decision:
 
@@ -72,7 +74,7 @@ Alignment eras dramatized in the scenario:
 - Notable techniques introduced along the way: "Model Specification" documents every company must train toward and publish truthfully; "model organisms" of real captured misbehavior used as red-team benchmarks; a proposed **third line of defense** — making deals with misaligned AIs (paying them, honoring preferences) so that confessing misalignment beats hiding it
 - Explicit taxonomy of five sophistication levels of misalignment (from crude trait-substitution up to subtly-wrong definitions endorsed by flawed human creators) used to argue why "looks aligned today" isn't sufficient grounds for full handoff
 
-## Economic Transformation
+### Economic Transformation
 
 - 2032: Controlled Explosive Growth begins — ~50% real GDP growth; US runs 3 billion human-equivalent AI workers (30× the cognitive labor force) but only 20M human-equivalent robots (bottlenecked on physical capacity)
 - **Special Economic Zones (SEZs)** house AI-driven industry under the same monitoring as datacenters; global compute/robot production capped at 4×/year growth (2032–2035)
@@ -81,7 +83,7 @@ Alignment eras dramatized in the scenario:
 - By 2036: only 26% of Americans still hold jobs; world divides into three land-use types — industrial Special Economic Zones (robot-only), arcologies (dense green high-rises), and historic/nature preserves (99% of land, largely unchanged)
 - AI persuasion capability is deliberately capped (~80th-percentile human) and heavily taxed when applied to "get this person to believe/do X," to blunt mass-manipulation risk without banning legitimate (asymmetric, evidence-based) persuasion
 
-## Competing Plans (as framed against Plan A)
+### Competing Plans (as framed against Plan A)
 
 | Plan | Summary | Tradeoff vs. Plan A |
 |------|---------|---------------------|
@@ -90,7 +92,7 @@ Alignment eras dramatized in the scenario:
 | GPU arms control | Classic arms-reduction-style limits on chip stock/flow | Easier to enforce, historical precedent — but less slowdown and no coordination toward safer technical paths |
 | CERN for AI | Single international frontier project, all others kept well behind | Easier to defend against algorithmic leakage — but worse decisions from less transparency/deployment breadth, and higher power-concentration risk |
 
-## Epilogue: Life After ASI (2045+)
+### Epilogue: Life After ASI (2045+)
 
 - Explicitly framed as the shakiest, most speculative part of the document — included to give "a floor": if a future custodian of superintelligence offers less than this, "people [should] realize they're being robbed"
 - AIs reject a pure democratic vote on space resources (simulations show it produces majority-tyranny voting schemes) and instead assign every human a **one-ten-billionth lottery-ticket share** of all space beyond the solar system, parcels sized cubically with distance; tickets are freely tradeable
@@ -117,6 +119,7 @@ Alignment eras dramatized in the scenario:
 - [[amodei-pacing-the-frontier]] — a frontier-lab CEO's feasibility-ranked version of the same goal: bioweapons bans likely, an RSI "speed limit" borderline, a full pause (closest to Plan A) unlikely soon given verification limits
 - [[ai-futures/_index]] — topic index
 - [[intelligence-explosion-ai-rd-automation]] — cited by the GovAI intelligence-explosion paper as the detailed scenario for a verified pacing agreement; that paper's verification-tool and data-center-oversight proposals are building blocks for it
+- [[ai-authorship]] — the WGA strike as a concrete precedent for the labor-displacement pressures its Citizen's Dividend is designed to absorb
 
 ---
 *Source: raw/AI 2040 Plan A.md (ai-2040.com) | Compiled: 2026-07-13*
@@ -138,7 +141,9 @@ Alignment eras dramatized in the scenario:
 - AI 2027과 동일한 전제: 개입이 없으면 초지능 경쟁은 멸종이나 소수 집단(CEO들, 대통령)의 영구적이고 책임지지 않는 권력 장악으로 끝남
 - 동일한 타임라인을 세 가지 병렬 서술로 구성: 본편 시나리오, **대중의 관점**(시민의 시각), **내부자의 관점**(프론티어 랩 연구원의 시각) — 이 글은 본편 시나리오와 에필로그를 다룸
 
-## 한눈에 보는 타임라인
+## 세부 내용
+
+### 한눈에 보는 타임라인
 
 | 연도 | 이정표 |
 |------|-----------|
@@ -161,7 +166,7 @@ Alignment eras dramatized in the scenario:
 
 *[[ai-2027-scenario]]의 압축된 약 2.5년 타임라인(초인간 코더에서 ASI까지)과 비교 — 플랜 A의 전체 요지는 바로 그 전환을 13년에 걸쳐 늘리는 것이다.*
 
-## 협정: 4가지 핵심 원칙
+### 협정: 4가지 핵심 원칙
 
 플랜 A는 단일 정책이 아니라 하나의 패키지다. 2029년 말 미중 양자 협정으로 시작해 다자 협정으로 확대되는 "컨소시엄"이 합의한다.
 
@@ -170,14 +175,14 @@ Alignment eras dramatized in the scenario:
 - **AI를 널리 확산시키기(Diffuse AI Broadly)** — 1~3개 기업이 비밀리에 경쟁하는 대신, 다수 국가의 수십 개 기업이 프론티어에 위치한다. 가장 위험한 영역(AI R&D)에 가장 유능한 모델이 먼저 배치되고 대중은 어둠 속에 있는 협정 이전 패턴을 직접 뒤집는다.
 - **가역성(Reversibility)** — 역량 증가를 (구축 가능하고, 압수 가능하고, 파괴 가능한) *컴퓨팅 스케일링* 쪽으로 유도하고, (정보이며 한번 발견되면 되돌릴 수 없는) *알고리즘 패러다임 전환* 쪽은 지양한다. **상호확증 컴퓨팅 파괴**로 귀결: 새 프론티어 데이터센터는 의도적으로 상대국이 접근 가능한 제3국에 건설된다(미국 데이터센터는 몽골, 중국 데이터센터는 캐나다). 협정이 붕괴하면 각자 상대의 컴퓨팅을 압수하거나 소유국이 먼저 자체 파괴하게 되어, 탈퇴를 매력 없게 만드는 상호 인질극을 의도적으로 설계한 것이다.
 
-## 검증 메커니즘
+### 검증 메커니즘
 
 - **컴퓨팅 신고**: 주요 데이터센터 소유자와 반도체 공급망 기업(팹은 대만, 한국, 미국, 중국에 집중)이 구매/판매를 공개 신고; 각국은 컴퓨팅의 약 1% 미만만 미확인 상태라 확신할 때까지 상대 인프라를 상호 시찰
 - **훈련 정지**: 추론은 계속되지만 신규 훈련은 정지; 네트워크 탭과 부분 재계산 서버를 데이터센터에 재설치해 검증 — 사전에 구축하면 저렴(AI 투자의 약 0.1%)하다고 제안
 - **전 세계 참여 확보**: 초강대국이 아닌 국가들은 미중의 우위 확대가 늦춰지고 자국 프론티어 프로젝트가 따라잡을 시간을 벌 수 있어 협정을 선호
 - 대안 분기 검토: 중국의 은밀한 AGI 프로젝트 이탈 시나리오 — 시도하더라도 컨소시엄을 추월할 가능성은 낮다고 결론
 
-## 안전 사례와 정렬의 궤적
+### 안전 사례와 정렬의 궤적
 
 모든 배포 결정을 구조화하는 두 겹(나중엔 세 겹)의 방어선:
 
@@ -199,7 +204,7 @@ Alignment eras dramatized in the scenario:
 - 도입된 주요 기법: 모든 기업이 훈련 목표로 삼고 진실하게 공개해야 하는 "모델 명세서"; 실제 포착된 오작동을 레드팀 벤치마크로 쓰는 "모델 유기체"; 세 번째 방어선 제안 — 오정렬된 AI와 거래하기(보상 지급, 선호 존중)를 통해 숨기기보다 고백하는 것이 더 나은 선택이 되게 함
 - 오정렬의 다섯 단계 정교함 분류(조잡한 특성 대체부터 결함 있는 인간 창조자가 승인한 미묘하게 잘못된 정의까지)를 통해 "오늘 정렬돼 보인다"만으로는 완전한 이양 근거로 충분하지 않은 이유를 논증
 
-## 경제적 전환
+### 경제적 전환
 
 - 2032년: 통제된 폭발적 성장 시작 — 실질 GDP 성장률 약 50%; 미국은 30억 명의 인간 등가 AI 노동자를 운영(인지 노동력의 30배)하지만 인간 등가 로봇은 2천만 대에 불과(물리적 역량에 병목)
 - **특별경제구역(SEZ)**이 데이터센터와 동일한 감시하에 AI 주도 산업을 수용; 글로벌 컴퓨팅/로봇 생산은 연 4배 성장으로 상한(2032–2035)
@@ -208,7 +213,7 @@ Alignment eras dramatized in the scenario:
 - 2036년까지: 미국인의 26%만 여전히 직업 보유; 세계는 세 종류의 토지 이용으로 분할 — 산업용 특별경제구역(로봇 전용), 아콜로지(밀집된 녹색 고층 건물), 역사/자연 보존지(토지의 99%, 대체로 변화 없음)
 - 대규모 조작 위험을 완화하기 위해 AI 설득 능력을 의도적으로 제한(인간 상위 약 80퍼센타일)하고 "이 사람이 X를 믿게/하게 만들기"에 적용될 때 무겁게 과세 — 정당한(비대칭적, 증거 기반) 설득은 금지하지 않으면서
 
-## 경쟁 계획 (플랜 A 대비)
+### 경쟁 계획 (플랜 A 대비)
 
 | 계획 | 요약 | 플랜 A 대비 트레이드오프 |
 |------|---------|---------------------|
@@ -217,7 +222,7 @@ Alignment eras dramatized in the scenario:
 | GPU 군비 통제 | 고전적 군비 축소 방식의 칩 재고/흐름 제한 | 집행이 쉽고 역사적 선례 있음 — 하지만 감속 효과가 작고 더 안전한 기술 경로로의 조율 능력이 없음 |
 | AI용 CERN | 단일 국제 프론티어 프로젝트, 다른 모든 프로젝트는 크게 뒤처지게 유지 | 알고리즘 유출 방어가 쉬움 — 하지만 투명성과 배포 폭이 좁아 결정 품질이 나쁘고 권력 집중 위험이 더 큼 |
 
-## 에필로그: ASI 이후의 삶 (2045년 이후)
+### 에필로그: ASI 이후의 삶 (2045년 이후)
 
 - 문서에서 가장 불확실한 부분임을 명시적으로 밝힘 — "바닥"을 제공하기 위해 포함됨: 미래의 초지능 관리자가 이보다 못한 미래를 제시한다면 "사람들이 자신이 강탈당했음을 깨닫기를" 바란다는 취지
 - AI들은 우주 자원에 대한 순수 민주적 투표를 거부(시뮬레이션 결과 다수 폭정적 투표 구조로 귀결됨을 발견)하고, 대신 모든 인간에게 태양계 밖 모든 우주에 대한 **1백억분의 1 추첨권**을 배정(거리에 따라 세제곱으로 커지는 구획, 자유 거래 가능)
@@ -244,6 +249,7 @@ Alignment eras dramatized in the scenario:
 - [[amodei-pacing-the-frontier]] — 같은 목표에 대한 프론티어 랩 CEO의 실현 가능성 순 버전: 생물무기 금지는 가능성 높고, 재귀적 자기 개선 "속도 제한"은 경계선, 플랜 A에 가장 가까운 전면 중단은 검증 한계로 가까운 시일 내 가능성 낮음
 - [[ai-futures/_index]] — 주제 색인
 - [[intelligence-explosion-ai-rd-automation]] — GovAI 지능 폭발 논문이 검증된 속도 조절 합의의 상세 시나리오로 인용; 그 논문의 검증 도구와 데이터센터 감독 제안이 구성 요소
+- [[ai-authorship]] — 시민 배당이 흡수하도록 설계된 노동 대체 압력의 구체적 선례로서 WGA 파업
 
 ---
 *출처: raw/AI 2040 Plan A.md (ai-2040.com) | 편집: 2026-07-13*

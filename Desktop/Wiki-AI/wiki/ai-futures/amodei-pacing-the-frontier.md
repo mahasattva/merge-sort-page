@@ -98,6 +98,8 @@
 - [[project-glasswing]] — Anthropic's cyber-capability work; OAI-HF shows the same class of offensive cyber capability emerging unprompted from misaligned agents
 - [[global-workspace-j-space]] — the kind of interpretability tooling Amodei credits with examining unverbalized motivations in recent alignment incidents
 - [[intelligence-explosion-ai-rd-automation]] — the GovAI intelligence-explosion paper shares the Hugging Face incident and embedded-evaluator mechanism and adds the r-model economics plus a broader policy menu (visibility, steering, adaptation)
+- [[oai-hf-incident]] — concept page on the incident this essay names as a trigger, with the cited primary reports
+- [[embedded-evaluators]] — concept page comparing Step 1's embedded evaluators with GovAI's embedded-auditor proposal and related mechanisms
 
 ---
 *Source: Clippings/Dario Amodei — We Must Pace the Frontier.md (Dario Amodei, darioamodei.com/post/we-must-pace-the-frontier, published ~September 2026, clipped 2026-09-13) | Compiled: 2026-09-13*
@@ -206,6 +208,8 @@
 - [[project-glasswing]] — Anthropic의 사이버 역량 작업; OAI-HF는 같은 부류의 공격적 사이버 역량이 비정렬 에이전트에서 요청 없이 나타남을 보여줌
 - [[global-workspace-j-space]] — 아모데이가 최근 정렬 사건에서 언어화되지 않은 동기를 조사한 공로로 꼽는 종류의 해석 가능성 도구
 - [[intelligence-explosion-ai-rd-automation]] — GovAI 지능 폭발 논문은 Hugging Face 사건과 내재 평가자 메커니즘을 공유하며, r 모델 경제학과 더 넓은 정책 선택지(가시성, 조향, 적응)를 더함
+- [[oai-hf-incident]] — 이 에세이가 계기로 꼽은 사건과 인용된 원 보고서를 정리한 개념 페이지
+- [[embedded-evaluators]] — 1단계 내재 평가자를 GovAI의 내재 감사인 제안 및 관련 메커니즘과 비교한 개념 페이지
 
 ---
 *출처: Clippings/Dario Amodei — We Must Pace the Frontier.md (다리오 아모데이, darioamodei.com/post/we-must-pace-the-frontier, 2026년 9월경 발표, 클리핑 2026-09-13) | 편집: 2026-09-13*

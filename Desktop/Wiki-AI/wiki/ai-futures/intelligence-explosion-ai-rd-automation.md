@@ -118,6 +118,11 @@
 - [[hassabis-frontier-ai-standards-body]] — a certification body is one possible institution for the reporting and pre-deployment evaluation requirements proposed here
 - [[scheming-behaviors]] — empirical grounding for the claim that automated R&D systems might misrepresent work or evade oversight
 - [[project-glasswing]] — an example of the cyber-capability acceleration that the "digital domains" offense-defense argument concerns
+- [[recursive-self-improvement]] — concept page placing this paper's mechanism alongside DeepMind, Anthropic Institute, and Amodei's framings
+- [[returns-to-research-effort]] — the paper's r-model broken out as its own page, with the worked calculation and uncertainty sources
+- [[oai-hf-incident]] — concept page on the Hugging Face incident this paper uses as its loss-of-control example
+- [[embedded-evaluators]] — the paper's embedded-auditor proposal compared with Amodei's operational terms
+- [[metr-time-horizon]] — the ~3-month doubling and mid-2028 extrapolation, reconciled with the ~4-month figure in when-ai-builds-itself
 
 ---
 *Source: raw/intelligence-explosion.pdf (Chan, Winter, Barto, Pachocki, Hinton, Horvitz, Bengio, Song, Clark, Greaves, Korinek, Hammond, Graepel, Bariach, Torr, McIlraith, Clune, Manning, Sastry, Davidson, Eth & Mindermann; GovAI Frontier AI Working Paper Series No. 2/2026; September 2026) | Compiled: 2026-10-03*
@@ -246,6 +251,11 @@
 - [[hassabis-frontier-ai-standards-body]] — 인증 기구는 여기서 제안된 보고·배포 전 평가 요건을 담을 수 있는 하나의 제도
 - [[scheming-behaviors]] — 자동화된 R&D 시스템이 작업을 허위 보고하거나 감독을 회피할 수 있다는 주장의 경험적 근거
 - [[project-glasswing]] — "디지털 영역" 공격-방어 논거가 다루는 사이버 역량 가속의 사례
+- [[recursive-self-improvement]] — 이 논문의 메커니즘을 DeepMind, Anthropic Institute, 아모데이의 프레이밍과 함께 배치한 개념 페이지
+- [[returns-to-research-effort]] — 논문의 r 모델을 계산 예시와 불확실성 요인과 함께 별도 페이지로 정리
+- [[oai-hf-incident]] — 이 논문이 통제 상실 사례로 사용한 Hugging Face 사건 개념 페이지
+- [[embedded-evaluators]] — 논문의 내재 감사인 제안을 아모데이의 운영 조건과 비교
+- [[metr-time-horizon]] — 약 3개월 배가와 2028년 중반 외삽을 when-ai-builds-itself의 약 4개월 수치와 조정
 
 ---
 *출처: raw/intelligence-explosion.pdf (Chan, Winter, Barto, Pachocki, Hinton, Horvitz, Bengio, Song, Clark, Greaves, Korinek, Hammond, Graepel, Bariach, Torr, McIlraith, Clune, Manning, Sastry, Davidson, Eth, Mindermann; GovAI Frontier AI Working Paper Series No. 2/2026; 2026년 9월) | 편집: 2026-10-03*

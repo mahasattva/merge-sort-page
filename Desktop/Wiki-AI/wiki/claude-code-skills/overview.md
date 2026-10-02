@@ -10,7 +10,9 @@
 - The same SKILL.md format works across Claude Code, Cursor, Gemini CLI, Codex CLI, and Antigravity IDE (universal standard)
 - As of 2026, the ecosystem includes official Anthropic skills, verified third-party skills, and 1,234+ community skills
 
-## The Three-Layer Toolkit
+## Detail
+
+### The Three-Layer Toolkit
 
 | Layer | What it is | Trigger | Persistence |
 |-------|-----------|---------|-------------|
@@ -20,7 +22,7 @@
 
 - See [[skills-vs-hooks-vs-claude-md]] for full comparison
 
-## Skill Locations (Scope & Precedence)
+### Skill Locations (Scope & Precedence)
 
 | Scope | Path | Shared |
 |-------|------|--------|
@@ -31,7 +33,7 @@
 
 Higher-priority locations win when skill names conflict.
 
-## Built-in Anthropic Skills (Bundled)
+### Built-in Anthropic Skills (Bundled)
 
 | Skill | Invoke | Purpose |
 |-------|--------|---------|
@@ -41,14 +43,14 @@ Higher-priority locations win when skill names conflict.
 | `/loop [interval]` | Manual | Run a prompt on recurring interval |
 | `/simplify` | Manual | Review changed code for quality/efficiency and fix |
 
-## The Skill Ecosystem (2026)
+### The Skill Ecosystem (2026)
 
 - **Official Anthropic skills** — `npx skills add anthropics/claude-code --skill <name>`
 - **Antigravity Awesome Skills** — 1,234+ community skills, one install: `npx antigravity-awesome-skills --claude`
 - **Skill directories** — aitmpl.com/skills, skills.sh
 - **Plugin marketplace** — claude.ai/settings/plugins
 
-## Installation Pattern
+### Installation Pattern
 
 ```bash
 # Official Anthropic
@@ -98,7 +100,9 @@ npx skills list
 - 동일한 SKILL.md 형식이 Claude Code, Cursor, Gemini CLI, Codex CLI, Antigravity IDE에서 모두 작동 (범용 표준)
 - 2026년 기준, 생태계에는 공식 Anthropic 스킬, 검증된 서드파티 스킬, 1,234개 이상의 커뮤니티 스킬이 포함됨
 
-## 세 가지 레이어 툴킷
+## 세부 내용
+
+### 세 가지 레이어 툴킷
 
 | 레이어 | 무엇인가 | 트리거 | 지속성 |
 |-------|-----------|---------|-------------|
@@ -108,7 +112,7 @@ npx skills list
 
 - 전체 비교는 [[skills-vs-hooks-vs-claude-md]] 참고
 
-## 스킬 위치 (범위 및 우선순위)
+### 스킬 위치 (범위 및 우선순위)
 
 | 범위 | 경로 | 공유 |
 |-------|------|--------|
@@ -119,7 +123,7 @@ npx skills list
 
 스킬 이름 충돌 시 우선순위가 높은 위치가 이김.
 
-## 기본 제공 Anthropic 스킬
+### 기본 제공 Anthropic 스킬
 
 | 스킬 | 호출 | 목적 |
 |-------|--------|---------|
@@ -129,14 +133,14 @@ npx skills list
 | `/loop [간격]` | 수동 | 반복 간격으로 프롬프트 실행 |
 | `/simplify` | 수동 | 변경된 코드의 품질/효율성 검토 및 수정 |
 
-## 스킬 생태계 (2026)
+### 스킬 생태계 (2026)
 
 - **공식 Anthropic 스킬** — `npx skills add anthropics/claude-code --skill <name>`
 - **Antigravity Awesome Skills** — 1,234개 이상의 커뮤니티 스킬, 한 번에 설치: `npx antigravity-awesome-skills --claude`
 - **스킬 디렉토리** — aitmpl.com/skills, skills.sh
 - **플러그인 마켓플레이스** — claude.ai/settings/plugins
 
-## 설치 패턴
+### 설치 패턴
 
 ```bash
 # 공식 Anthropic

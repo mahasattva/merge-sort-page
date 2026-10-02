@@ -154,6 +154,7 @@
 
 - [[ai-futures/ai-2027-alignment]] — AI 2027 정렬 호는 LLM 내부 상태가 읽기 가능한지 질문; 이 논문은 부분적으로 그렇다는 기계적 증거 제공
 - [[llm-interpretability/_index]] — 부모 주제
+- [[global-workspace-j-space]] — 동일한 인과적 개입 방법론(표상을 교체/제거하고 행동 변화를 관찰)을 개별 감정 특징이 아닌 작업공간 수준 구조에 적용
 
 ---
 *출처: raw/Do LLMs Feel.pdf (arXiv:2510.11328v1) | 편집: 2026-04-09*

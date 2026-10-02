@@ -9,7 +9,9 @@
 - **CLAUDE.md**: persistent session instructions; loaded at startup
 - These are complementary, not alternatives — production setups use all three
 
-## Comparison Table
+## Detail
+
+### Comparison Table
 
 | Dimension | Skills | Hooks | CLAUDE.md |
 |-----------|--------|-------|-----------|
@@ -21,7 +23,7 @@
 | **Can Claude bypass?** | Yes (it decides relevance) | No (shell command runs regardless) | N/A (it's just text it reads) |
 | **Config location** | `~/.claude/skills/` or `.claude/skills/` | `settings.json` | CLAUDE.md file |
 
-## When to Use Skills
+### When to Use Skills
 
 Use skills when you want Claude to **intelligently choose** to apply knowledge or when you want a **slash command**:
 
@@ -42,7 +44,7 @@ Check the changed files for:
 ...
 ```
 
-## When to Use Hooks
+### When to Use Hooks
 
 Use hooks when you want something to **always happen regardless of what Claude thinks**:
 
@@ -67,7 +69,7 @@ Use hooks when you want something to **always happen regardless of what Claude t
 
 Claude cannot bypass this. It fires every time an Edit or Write tool is used.
 
-## When to Use CLAUDE.md
+### When to Use CLAUDE.md
 
 Use CLAUDE.md for **persistent context that should always be in scope**:
 
@@ -87,7 +89,7 @@ Use CLAUDE.md for **persistent context that should always be in scope**:
 
 **CLAUDE.md is loaded every session** — keep it focused. Detailed workflows belong in skills; automatic enforcement belongs in hooks.
 
-## How They Work Together (Example)
+### How They Work Together (Example)
 
 Session on a TypeScript API project:
 
@@ -100,7 +102,7 @@ Session on a TypeScript API project:
 7. User says `/create-pr`
 8. **Skill with `disable-model-invocation: true`** → Claude packages work into a PR
 
-## Common Mistakes
+### Common Mistakes
 
 | Mistake | Fix |
 |---------|-----|
@@ -141,7 +143,9 @@ Session on a TypeScript API project:
 - **CLAUDE.md**: 지속적인 세션 지침; 시작 시 로드
 - 이것들은 대안이 아니라 상호 보완적 — 프로덕션 설정은 세 가지 모두 사용
 
-## 비교 표
+## 세부 내용
+
+### 비교 표
 
 | 차원 | 스킬 | 훅 | CLAUDE.md |
 |-----------|--------|-------|-----------|
@@ -153,7 +157,7 @@ Session on a TypeScript API project:
 | **Claude가 우회할 수 있나?** | 예 (관련성 결정) | 아니요 (셸 명령이 관계없이 실행) | 해당 없음 (읽는 텍스트일 뿐) |
 | **설정 위치** | `~/.claude/skills/` 또는 `.claude/skills/` | `settings.json` | CLAUDE.md 파일 |
 
-## 스킬을 사용할 때
+### 스킬을 사용할 때
 
 Claude가 지식을 **지능적으로 적용하도록** 하거나 **슬래시 명령**을 원할 때 스킬 사용:
 
@@ -162,7 +166,7 @@ Claude가 지식을 **지능적으로 적용하도록** 하거나 **슬래시 �
 - 감지 시 활성화되는 백그라운드 컨텍스트: 레거시 시스템 문서, 코딩 규칙
 - 작업 유형에 따라 달라지는 기능: UI 빌드 시 `/frontend-design`
 
-## 훅을 사용할 때
+### 훅을 사용할 때
 
 **Claude의 판단에 관계없이 항상 일어나야** 하는 것에 훅 사용:
 
@@ -173,7 +177,7 @@ Claude가 지식을 **지능적으로 적용하도록** 하거나 **슬래시 �
 
 Claude는 이것을 우회할 수 없음. Edit 또는 Write 도구가 사용될 때마다 실행.
 
-## CLAUDE.md를 사용할 때
+### CLAUDE.md를 사용할 때
 
 **항상 범위에 있어야 하는 지속적인 컨텍스트**에 CLAUDE.md 사용:
 
@@ -185,7 +189,7 @@ Claude는 이것을 우회할 수 없음. Edit 또는 Write 도구가 사용될 
 
 **CLAUDE.md는 모든 세션에 로드됨** — 집중 유지. 상세한 워크플로우는 스킬에; 자동 적용은 훅에.
 
-## 함께 작동하는 방식 (예시)
+### 함께 작동하는 방식 (예시)
 
 TypeScript API 프로젝트의 세션:
 
@@ -198,7 +202,7 @@ TypeScript API 프로젝트의 세션:
 7. 사용자가 `/create-pr` 입력
 8. **`disable-model-invocation: true`인 스킬** → Claude가 작업을 PR로 패키징
 
-## 흔한 실수
+### 흔한 실수
 
 | 실수 | 수정 |
 |---------|-----|

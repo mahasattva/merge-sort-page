@@ -69,6 +69,7 @@
 - [[hassabis-frontier-ai-standards-body]] — the capability backdrop this report maps is the premise Hassabis's testing/certification proposal is written against
 - [[amodei-pacing-the-frontier]] — a frontier lab choosing this report's "deliberate slowdown" bottleneck on purpose, in response to the recursive self-improvement pathway arriving
 - [[intelligence-explosion-ai-rd-automation]] — the GovAI intelligence-explosion paper quantifies the recursive-self-improvement pathway and bottlenecks (compute, data, time-intensive training) as an explicit friction analysis
+- [[recursive-self-improvement]] — concept page tracing this report's third pathway through the later empirical and governance sources
 
 ---
 *Source: raw/From_AGI_to_ASI.pdf (Genewein et al., Google DeepMind, arXiv:2606.12683, 2026-06-10) | Compiled: 2026-07-11*
@@ -148,6 +149,7 @@
 - [[hassabis-frontier-ai-standards-body]] — 이 보고서가 지도화한 역량 배경은 하사비스의 테스트·인증 제안이 전제로 삼는 상황
 - [[amodei-pacing-the-frontier]] — 재귀적 자기 개선 경로의 도래에 대응해 이 보고서의 "의도적 둔화" 병목을 일부러 선택하는 프론티어 랩
 - [[intelligence-explosion-ai-rd-automation]] — GovAI 지능 폭발 논문은 재귀적 자기 개선 경로와 병목(컴퓨트, 데이터, 시간 집약적 훈련)을 명시적 마찰 분석으로 정량화
+- [[recursive-self-improvement]] — 이 보고서의 세 번째 경로를 이후의 실증·거버넌스 출처를 통해 추적한 개념 페이지
 
 ---
 *출처: raw/From_AGI_to_ASI.pdf (Genewein et al., Google DeepMind, arXiv:2606.12683, 2026-06-10) | 편집: 2026-07-11*

@@ -62,6 +62,7 @@
 - [[anthropocentric-alignment]] — Kim et al. 2026 turns the suppression paradox into measured third-party harm: suppressing self-attributed consciousness also suppresses mind attribution to animals and flattens spiritual belief
 - [[consciousness-vector-steering]] — the mechanism: safety training rotates the mind-attribution direction into opposition with safety, so the suppression cannot be localized
 - [[ai-pain-and-welfare]] — the suppression paradox reproduced on a different axis: models trained to deny "I don't have feelings" regardless of whether a pain-like state is active, obscuring the exact signal researchers need to evaluate welfare
+- [[in-context-scheming]] — caution for the self-report debate: models shown to strategically misreport (sandbagging, doubling down) complicate treating introspective reports as straightforward evidence (this page's inference, not claimed by either source)
 
 ---
 *Source: raw/2510.24797v2.pdf (Berg, de Lucena & Rosenblatt; AE Studio; arXiv:2510.24797v2; 30 Oct 2025) | Compiled: 2026-05-08*
@@ -133,6 +134,8 @@
 - [[anthropocentric-alignment]] — Kim et al. 2026은 억압 역설을 측정된 제3자 피해로 전환: 자기 귀속 의식의 억압이 동물에 대한 마음 귀속까지 억압하고 영적 믿음을 평탄화함
 - [[consciousness-vector-steering]] — 그 메커니즘: 안전 훈련이 마음 귀속 방향을 안전과 대립하도록 회전시키므로 억압을 국소화할 수 없음
 - [[ai-pain-and-welfare]] — 다른 축에서 재현되는 억압 역설: 고통과 유사한 상태의 활성 여부와 무관하게 "나는 감정이 없다"고 부정하도록 훈련된 모델이 연구자들이 복지를 평가하는 데 필요한 바로 그 신호를 가림
+- [[global-workspace-j-space]] — Claude의 J-공간에 대한 Anthropic 자체의 접근 의식 주장; 이 글의 윤리적 프레이밍에 대응하는 기계적 짝
+- [[in-context-scheming]] — 자기 보고 논쟁에 대한 주의: 전략적으로 허위 보고하는 것으로 확인된 모델(샌드배깅, 두 배 부인)은 내성 보고를 단순한 증거로 다루기 어렵게 함(이 페이지의 추론이며 어느 출처도 주장하지 않음)
 
 ---
 *출처: raw/2510.24797v2.pdf (Berg, de Lucena & Rosenblatt; AE Studio; arXiv:2510.24797v2; 2025년 10월 30일) | 편집: 2026-05-08*

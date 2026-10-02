@@ -11,7 +11,9 @@
 
 ---
 
-## 1. Frontend Design
+## Detail
+
+### 1. Frontend Design
 
 **Problem:** Without guidance, LLMs default to "distributional convergence" — Inter font, purple gradient, grid cards. Statistically average, visually forgettable.
 
@@ -29,7 +31,7 @@ npx skills add anthropics/claude-code --skill frontend-design
 
 ---
 
-## 2. Browser Use
+### 2. Browser Use
 
 **Problem:** Agents can write a scraper but can't run it. Blind to dynamic web content, live dashboards, or end-to-end flows requiring clicks.
 
@@ -47,7 +49,7 @@ npx skills add https://github.com/browser-use/browser-use --skill browser-use
 
 ---
 
-## 3. Code Reviewer (Simplify)
+### 3. Code Reviewer (Simplify)
 
 **Problem:** Agents write code that works on first read but misses: unnecessary abstractions, duplicated logic, functions doing too much, performance issues, naming problems.
 
@@ -76,7 +78,7 @@ Run /simplify before presenting code. Flag:
 
 ---
 
-## 4. Remotion
+### 4. Remotion
 
 **Problem:** Videos communicate things documentation can't. Video production requires different tools, teams, timelines — so most developers just don't do it.
 
@@ -96,7 +98,7 @@ npx skills add remotion/agent-skills
 
 ---
 
-## 5. Google Workspace (GWS)
+### 5. Google Workspace (GWS)
 
 **Problem:** Google Workspace has 50+ APIs with separate OAuth flows, client libraries, and REST endpoints per service. Integration setup has historically been significant work.
 
@@ -115,7 +117,7 @@ npx skills add https://github.com/googleworkspace/cli
 
 ---
 
-## 6. Valyu — Real-Time & Specialised Data
+### 6. Valyu — Real-Time & Specialised Data
 
 **Problem:** Agents fabricate or use stale data when real answers require paywalled sources: SEC filings, PubMed, clinical trials, economic databases.
 
@@ -137,7 +139,7 @@ npx skills add https://github.com/valyuai/skills --skill valyu-best-practices
 
 ---
 
-## 7. Antigravity Awesome Skills
+### 7. Antigravity Awesome Skills
 
 **Problem:** Every skill problem you have, someone has already solved — but the solutions are scattered across GitHub, Discord, and blog posts.
 
@@ -168,7 +170,7 @@ npx antigravity-awesome-skills --claude
 
 ---
 
-## 8. PlanetScale Database Skills
+### 8. PlanetScale Database Skills
 
 **Problem:** Agents treat databases like any other code — write something that runs and move on. Schema decisions made at day one are hardest to undo at day 365.
 
@@ -187,7 +189,7 @@ npx skills add planetscale/agent-skill
 
 ---
 
-## 9. Shannon — Autonomous AI Pentester
+### 9. Shannon — Autonomous AI Pentester
 
 **Problem:** Security testing is expensive, slow, and requires specialized knowledge — so most teams skip it. Traditional pentests cost thousands and return a PDF weeks later.
 
@@ -219,7 +221,7 @@ npx skills add unicodeveloper/shannon
 
 ---
 
-## 10. Excalidraw Diagram Generator
+### 10. Excalidraw Diagram Generator
 
 **Problem:** Architecture decisions live in prose or whiteboard sessions nobody records. Code comments describe what; diagrams show why.
 
@@ -241,7 +243,7 @@ Draw sequence diagram for OAuth2 PKCE flow including browser, auth server, and r
 
 ---
 
-## Summary Table
+### Summary Table
 
 | Skill | Gap it fills | Install |
 |-------|-------------|---------|
@@ -289,7 +291,9 @@ Draw sequence diagram for OAuth2 PKCE flow including browser, auth server, and r
 
 ---
 
-## 1. 프론트엔드 디자인
+## 세부 내용
+
+### 1. 프론트엔드 디자인
 
 **문제:** 지침 없이 LLM은 "분포 수렴"에 기본 설정됨 — Inter 폰트, 보라색 그라데이션, 격자 카드. 통계적으로 평균이고, 시각적으로 기억에 남지 않음.
 
@@ -307,7 +311,7 @@ npx skills add anthropics/claude-code --skill frontend-design
 
 ---
 
-## 2. 브라우저 사용
+### 2. 브라우저 사용
 
 **문제:** 에이전트는 스크레이퍼를 작성할 수 있지만 실행할 수 없음. 동적 웹 콘텐츠, 실시간 대시보드, 또는 클릭이 필요한 엔드-투-엔드 흐름에 접근 불가.
 
@@ -322,7 +326,7 @@ npx skills add https://github.com/browser-use/browser-use --skill browser-use
 
 ---
 
-## 3. 코드 리뷰어 (Simplify)
+### 3. 코드 리뷰어 (Simplify)
 
 **문제:** 에이전트는 첫 번째 읽기에서 작동하는 코드를 작성하지만 놓침: 불필요한 추상화, 중복된 로직, 너무 많은 일을 하는 함수, 성능 문제, 명명 문제.
 
@@ -341,7 +345,7 @@ npx claude-code-templates@latest --skill development/code-reviewer
 
 ---
 
-## 4. Remotion
+### 4. Remotion
 
 **문제:** 동영상은 문서가 전달할 수 없는 것을 전달함. 동영상 제작은 다른 도구, 팀, 일정이 필요 — 대부분의 개발자가 그냥 하지 않는 이유.
 
@@ -356,7 +360,7 @@ npx skills add remotion/agent-skills
 
 ---
 
-## 5. Google Workspace (GWS)
+### 5. Google Workspace (GWS)
 
 **문제:** Google Workspace에는 서비스별로 별도의 OAuth 흐름, 클라이언트 라이브러리, REST 엔드포인트가 있는 50개 이상의 API가 있음. 통합 설정이 상당한 작업이었음.
 
@@ -373,7 +377,7 @@ npx skills add https://github.com/googleworkspace/cli
 
 ---
 
-## 6. Valyu — 실시간 및 특화 데이터
+### 6. Valyu — 실시간 및 특화 데이터
 
 **문제:** 실제 답변이 유료 소스를 필요로 할 때 에이전트가 데이터를 만들어내거나 오래된 데이터를 사용: SEC 공시, PubMed, 임상시험, 경제 데이터베이스.
 
@@ -388,7 +392,7 @@ npx skills add https://github.com/valyuai/skills --skill valyu-best-practices
 
 ---
 
-## 7. Antigravity Awesome Skills
+### 7. Antigravity Awesome Skills
 
 **문제:** 당신이 가진 모든 스킬 문제는 이미 누군가가 해결했음 — 하지만 해결책이 GitHub, Discord, 블로그 게시물에 흩어져 있음.
 
@@ -405,7 +409,7 @@ npx antigravity-awesome-skills --claude
 
 ---
 
-## 8. PlanetScale 데이터베이스 스킬
+### 8. PlanetScale 데이터베이스 스킬
 
 **문제:** 에이전트는 데이터베이스를 다른 코드처럼 취급 — 작동하는 것을 작성하고 넘어감. 1일에 내린 스키마 결정이 365일에 되돌리기 가장 어려움.
 
@@ -422,7 +426,7 @@ npx skills add planetscale/agent-skill
 
 ---
 
-## 9. Shannon — 자율 AI 침투 테스터
+### 9. Shannon — 자율 AI 침투 테스터
 
 **문제:** 보안 테스팅은 비용이 많이 들고, 느리며, 전문 지식이 필요 — 대부분의 팀이 건너뜀. 전통적인 침투 테스트는 수천 달러가 들고 몇 주 후에 PDF를 반환.
 
@@ -441,7 +445,7 @@ npx skills add unicodeveloper/shannon
 
 ---
 
-## 10. Excalidraw 다이어그램 생성기
+### 10. Excalidraw 다이어그램 생성기
 
 **문제:** 아키텍처 결정이 산문이나 아무도 기록하지 않는 화이트보드 세션에 남음. 코드 주석은 무엇을 설명하지만; 다이어그램은 왜를 보여줌.
 
@@ -456,7 +460,7 @@ npx skills add https://github.com/coleam00/excalidraw-diagram-skill --skill exca
 
 ---
 
-## 요약 표
+### 요약 표
 
 | 스킬 | 채우는 격차 | 설치 |
 |-------|-------------|---------|
